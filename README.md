@@ -1,5 +1,9 @@
 # Bundle 1
 
+### Table of Contents
+* [Go to Part I: Steps vs. Average Air Temperature](#part-i-steps-vs-average-air-temperature)
+* [Go to Part II: Web Data Visualisation Analysis (PT Bank Central Asia Tbk)](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk)
+
 ---
 
 ## Part I: Steps vs. Average Air Temperature
