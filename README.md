@@ -41,7 +41,7 @@ Bureau of Meteorology. (2026). *Melbourne, Victoria daily weather observations* 
 
 ### Exercise Objective
 
-The objective of this exercise is to evaluate a data visualization on the internet by analyzing how its visual design elements interact with human visual perception. By examining features such as preattentive attributes, Gestalt principles, and visual comparison accuracy, this exercise shows how visual encoding techniques guide attention and convey underlying data accurately.
+The main goal of this portfolio exercise is to see and analyze a data visualization on the internet by analyzing its visual design elements and how it is perceived by humans. By paying attention to the features like the preattentive processing, gestalt principles, and visual comparison accuracy, we are able to see how the data visualization grabs our attention and how we read it. 
 
 ---
 
