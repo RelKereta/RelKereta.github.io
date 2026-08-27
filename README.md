@@ -1,8 +1,11 @@
 # Bundle 1
 
 ### Table of Contents
-* [Go to Part I: Steps vs. Average Air Temperature](#part-i-steps-vs-average-air-temperature)
-* [Go to Part II: Web Data Visualisation Analysis (PT Bank Central Asia Tbk)](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk)
+* [Bundle 1](#bundle-1)
+  * [Go to Part I: Steps vs. Average Air Temperature](#part-i-steps-vs-average-air-temperature)
+  * [Go to Part II: Web Data Visualisation Analysis (PT Bank Central Asia Tbk)](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk)
+* [Bundle 2](#bundle-2)
+  * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet)
 
 ---
 
@@ -65,3 +68,52 @@ Baglin, J. (2026, March 26). *Data visualisation: From theory to practice*. STEM
 Cherry, K. (2026, March 2). *What are the Gestalt principles?* Verywell Mind. https://www.verywellmind.com/gestalt-laws-of-perceptual-organization-2795835
 
 TradingView. (2026). *PT Bank Central Asia Tbk stock price and chart* [Financial chart]. Retrieved August 5, 2026, from https://www.tradingview.com/chart/VhRMI5Qy/?symbol=IDX%3ABBCA
+
+---
+
+# Bundle 2
+
+## Part III: Data Verification Audit (HowMuch.net) (28/08/26)
+
+### Data Visualization
+
+![Mapped: Uninsured rates by state](./Screenshot 2026-08-28 010438.png)
+*Figure 1*  
+*Hexagonal cartogram map of uninsured rates across U.S. states. Adapted from Mapped: Uninsured Rates by State, by HowMuch.net, 2021.*
+
+---
+
+### Exercise Objective
+
+The objective of this portfolio exercise is to audit a published web data visualization for data integrity, trace reported figures back to their primary source of origin, analyze the visual encoding and level of measurement of each variable, assess the alignment between the underlying question and data, and critically evaluate the limitations of the source data.
+
+---
+
+### Data Analysis and Verification
+
+#### 1. Types of Variables and Levels of Measurement
+* **Geographic entity (U.S. States):** Represented using hexagons arranged in the shape of the U.S., where each border defines a geographical boundary. The unit is the state name, and the level of measurement is Nominal.
+* **Uninsured Rate (Percentage):** Represented by numerical labels. The unit is the percentage of the uninsured population (%), and the level of measurement is Ratio (a continuous numeric scale with an absolute zero).
+* **Color Hue & Shading (Choropleth Scale):** Represented by the fill color of each hexagon. The unit is visual gradient intensity, and the level of measurement is Ordinal.
+
+#### 2. Alignment of Data and Question
+* **Data (D):** State-level percentages of civilian non-institutionalized residents without health insurance from the 2019 ACS 1-Year Estimates (U.S. Census Bureau, 2020).
+* **Core Question (Q):** How does health insurance coverage vary geographically across the United States, and which states exhibit the highest and lowest rates of uninsured residents?
+* **Alignment:** Evaluated using the Junk Charts Trifecta Checkup (Fung, 2014), there is strong alignment between the core question and the data. Measuring uninsured population proportions by state directly resolves geographic disparity questions.
+
+#### 3. Data Verification
+* **Verification Findings:** The verification results are recorded in Comparison.xlsx. The figures visualized by HowMuch.net (2021) match the official U.S. Census Bureau (2020) ACS Table S2701 dataset with zero discrepancies.
+* **Confidence:** Confidence in data accuracy is high. However, a potential point of confusion exists: HowMuch.net published the graphic in 2021 using 2019 pre-pandemic data. Without the year specified in the title, readers might assume the graphic reflects contemporary 2021 pandemic-era rates.
+
+#### 4. Data Source Examination
+The primary dataset from the U.S. Census Bureau (2020) is authoritative and reputable. However, because the American Community Survey relies on probability sampling rather than a total population count, each estimate carries a reported margin of error (e.g., ±0.2% for Texas, ±1.3% for Wyoming).
+
+---
+
+### References
+
+Fung, K. (2014, May 26). *Junk Charts Trifecta Checkup: The definitive guide*. Junk Charts. https://www.junkcharts.com/junk-charts-trifecta-checkup-the-definitive-guide/
+
+HowMuch.net. (2021, March 30). *Mapped: Uninsured rates by state*. HowMuch.net. https://howmuch.net/articles/health-insurance-coverage-in-the-us
+
+U.S. Census Bureau. (2020). *Selected characteristics of health insurance coverage in the United States: 2019 American Community Survey 1-year estimates (Table S2701)*. U.S. Department of Commerce. https://data.census.gov/table?q=S2701&g=010XX00US$0400000&y=2019
