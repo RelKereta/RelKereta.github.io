@@ -178,6 +178,12 @@ DataCamp. (2026). *Introduction to Data Visualization with Matplotlib* [Online c
 
 ## Part V: Data Visualisation Reproduction & Reconstruction (Our World in Data) (28/08/26)
 
+### Exercise Objective
+
+The objective of this exercise is to dive in and start recreating data visualization using a tool (python). The main objective is to try to recreate a data visualization as close as possible by using the original data and the same colors as the original. After that, we need to make the same recreation using a different appropriate color palette.
+
+---
+
 ### Master Data Visualization
 
 ![Master Data Visualisation: Population Growth for Selected Countries (1950–2023)](./Master.png)
@@ -195,8 +201,6 @@ DataCamp. (2026). *Introduction to Data Visualization with Matplotlib* [Online c
 *Replicated Visualization matching the layout, typography, and original categorical colour palette of Our World in Data using data from Our World in Data (2024).*
 
 #### Methodology & Step-by-Step Process
-The objective of this exercise is to dive in and start recreating data visualization using a tool (python). The main objective is to try to recreate a data visualization as close as possible by using the original data and the same colors as the original. After that, we need to make the same recreation using a different appropriate color palette.
-
 How I recreated the visualization was first using data from Our World in Data (2024) and filtering out the years so that it only takes the data from 1950 until 2023, and only using the 8 selected countries. After that, I had to start formatting the Y axis and X axis so that it shows the same way that the original did. And after that, it was on to the process of adding in the tiny little details like the brackets that connected the lines from the plotted lines, and the country name. For the color palette of the recreation, I went on Figma to use their color picker and tried my best to get the same color as the original. 
 
 A problem I faced when making the recreation is that there was a lot of trial and error for the placement of the bracket points and I had to look up how to make it so that the country labels didn’t clip together. There was quite a bit of trial and error in recreating the original visualization. Another problem I faced was that I can’t really get the font style and styling just right for the title, so there are some differences in that area. I also couldn’t add the interactivity and I did not add the choice bar up top that the original had because I haven’t learned the skill yet and it can be a future goal for me. I also added the logo of Our World in Data in the top right corner as well to make it seem much more similar to the original.
