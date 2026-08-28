@@ -5,7 +5,7 @@
   * [Go to Part I: Steps vs. Average Air Temperature](#part-i-steps-vs-average-air-temperature)
   * [Go to Part II: Web Data Visualisation Analysis (PT Bank Central Asia Tbk)](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk)
 * [Bundle 2](#bundle-2)
-  * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet)
+  * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet-(28/08/26))
   * [Go to Part IV: Tools of the Trade (Technical Skills & Certification)](#part-iv-tools-of-the-trade-technical-skills--certification)
 
 ---
