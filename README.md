@@ -7,7 +7,7 @@
 * [Bundle 2](#bundle-2)
   * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet-280826)
   * [Go to Part IV: Tools of the Trade (Technical Skills & Certification)](#part-iv-tools-of-the-trade-technical-skills--certification)
-  * [Go to Part V: Data Visualisation Reproduction & Reconstruction (Our World in Data)](#part-v-data-visualisation-reproduction--reconstruction-our-world-in-data-280826)
+  * [Go to Part V: Data Visualisation Reproduction & Reconstruction (Our World in Data) (28/08/26)](#part-v-data-visualisation-reproduction--reconstruction-our-world-in-data-280826)
 
 ---
 
@@ -220,16 +220,16 @@ There is a problem with the palette though. The color used for Nigeria is part o
 | :--- | :--- |
 | **Title** | Population Growth by Country (1950–2023) |
 | **Summary** | A multi-line time series visualization showing total national population trends from 1950 to 2023 for eight different countries: China, India, United States, Indonesia, Pakistan, Nigeria, Brazil, and Japan. |
-| **Data Sources** | • **Primary Source / Host:** Our World in Data. (2024). *Population and Demography Data Explorer* [Data set]. https://ourworldindata.org/explorers/population-and-demography?indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN<br><br>• **Original Source:** United Nations, Department of Economic and Social Affairs, Population Division. (2024). *World Population Prospects 2024, Online Edition* [Data set]. United Nations. https://population.un.org/wpp/ |
-| **Mapping** | • **X-axis:** Calendar Year — continuous annual time steps from 1950 to 2023 (UN DESA / OWID, 2024).<br><br>• **Y-axis:** Total Population (both sexes, all ages) — measured in counts (headcount), formatted into millions and billions (e.g., 200 million, 1.4 billion) (UN DESA / OWID, 2024).<br><br>• **Color / Hue (Encoding):** Categorical line colors mapping each of the 8 countries. |
-| **Important Notes** | • **Preprocessing & Filtering:** The full source dataset has global historical and projected population figures across hundreds of different countries. The data was filtered exclusively for the years 1950 to 2023 and filtered to the 8 specified countries. The table was pivoted so each country forms an individual time series column.<br><br>• **Missing Data:** No missing values were present for the selected 8 countries over the 1950–2023 period.<br><br>• **Methodological Context:** Estimates derive from demographic models based on national censuses and vital registration statistics harmonized by UN DESA. Historical figures for conflict periods or developing nations incorporate backcasting estimates. |
-| **Access** | • **Direct Page Access & Download:** [Our World in Data Population Explorer](https://ourworldindata.org/explorers/population-and-demography?overlay=download-data&indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN) |
+| **Data Sources** | Primary Source / Host: Our World in Data. (2024). *Population and Demography Data Explorer* [Data set]. https://ourworldindata.org/explorers/population-and-demography?indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN<br><br>Original Source: United Nations, Department of Economic and Social Affairs, Population Division. (2024). *World Population Prospects 2024, Online Edition* [Data set]. United Nations. https://population.un.org/wpp/ |
+| **Mapping** | X axis: Year, it is a continuous annual time steps from 1950 to 2023 (UN DESA / OWID, 2024).<br><br>Y axis: Total Population (both sexes, all ages) — measured in counts (headcount), formatted into millions and billions (e.g., 200 million, 1.4 billion) (UN DESA / OWID, 2024). |
+| **Important Notes** | Preprocessing and Filtering: The full source dataset has global historical and projected population figures across hundreds of different countries. The data was filtered exclusively for the years 1950 to 2023 and filtered to the 8 specified countries. The table was pivoted so each country forms an individual time series column.<br><br>Missing Data: No missing values were present for the selected 8 countries over the 1950–2023 period. |
+| **Access** | Direct page access to download data: [Our World in Data Population Explorer Download](https://ourworldindata.org/explorers/population-and-demography?overlay=download-data&indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN) |
 
 ---
 
 ### Generative AI Acknowledgment
 
-In accordance with RMIT academic integrity guidelines, generative AI (Google Gemini, August 2026 version) was used in this portfolio exercise (Google, 2026). Gemini was consulted to assist with Python matplotlib code syntax for custom tick formatters, mathematical calculation of the stepped connector bracket coordinates (`clip_on=False` behavior), Okabe-Ito hex code mapping, and APA referencing formatting. All final data filtering, code execution, image outputs, and analytical text were reviewed and verified independently.
+I used Gemini, an AI tool created by Google (Google, 2026), to find different methods to help me recreate the original visualization, including how to format the y-axis, how to make the brackets, how to stop overlapping of labels, and how to add an image to a plot using Python.
 
 ---
 
