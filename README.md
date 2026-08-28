@@ -6,6 +6,7 @@
   * [Go to Part II: Web Data Visualisation Analysis (PT Bank Central Asia Tbk)](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk)
 * [Bundle 2](#bundle-2)
   * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet)
+  * [Go to Part IV: Tools of the Trade (Technical Skills & Certification)](#part-iv-tools-of-the-trade-technical-skills--certification)
 
 ---
 
@@ -117,3 +118,53 @@ Fung, K. (2014, May 26). *Junk Charts Trifecta Checkup: The definitive guide*. J
 HowMuch.net. (2021, March 30). *Mapped: Uninsured rates by state*. HowMuch.net. https://howmuch.net/articles/health-insurance-coverage-in-the-us
 
 U.S. Census Bureau. (2020). *Selected characteristics of health insurance coverage in the United States: 2019 American Community Survey 1-year estimates (Table S2701)*. U.S. Department of Commerce. https://data.census.gov/table?q=S2701&g=010XX00US$0400000&y=2019
+
+---
+
+## Part IV: Tools of the Trade (Technical Skills & Certification)
+
+### Exercise Objective
+
+The goal of this section is to document my technical skill set, proficiency levels, and the industry-standard software tools utilized throughout my data analytics and visualization journey. It captures my continuous professional development through structured training and links my practical capabilities directly to portfolio work.
+
+---
+
+### Technical Skills & Competency Matrix
+
+| Category | Skill / Tool | Specific Capabilities | Proficiency Level | Portfolio Evidence / Application |
+| :--- | :--- | :--- | :--- | :--- |
+| **Programming** | **Python** | Data types, variables, lists, functions, basic scripting, and NumPy arrays | Developing | Completed DataCamp Introduction to Python; data cleaning and parsing |
+| **Data Visualization** | **Matplotlib** | Custom line charts, bar plots, subplots, color styling, axis labeling, and annotations | Developing | Completed DataCamp Introduction to Data Visualization with Matplotlib |
+| **Office & Analytics** | **Microsoft Excel** | Data entry, cross-source verification, formulas, tabular data auditing | Experienced | [Part III: Data Verification Audit](#part-iii-data-verification-audit-howmuchnet) (Comparison.xlsx) |
+| **Design & Perception** | **Visual Auditing** | Gestalt principles, Cleveland & McGill visual hierarchy, preattentive attributes | Experienced | [Part II: PT Bank Central Asia Tbk Analysis](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk) |
+| **Data Integrity** | **Source Auditing** | Margin of error assessment, Junk Charts Trifecta Checkup, primary source tracing | Developing | [Part III: Data Verification Audit](#part-iii-data-verification-audit-howmuchnet) |
+
+---
+
+### Certifications & Accreditations
+
+#### 1. Introduction to Python (DataCamp)
+* **Issuing Organization:** DataCamp
+* **Topics Covered:** Python basics, lists, functions, packages, and NumPy array manipulation.
+* **Certificate:**
+
+![DataCamp Certificate - Introduction to Python](./datacamp_intro_to_python_certificate.png)
+*Figure 1*  
+*Certificate of Completion: Introduction to Python (DataCamp)*
+
+#### 2. Introduction to Data Visualization with Matplotlib (DataCamp)
+* **Issuing Organization:** DataCamp
+* **Topics Covered:** Plotting time-series, customized bar charts, scatter plots, visual styling, automating plot generation, and sharing visualizations.
+* **Certificate:**
+
+![DataCamp Certificate - Introduction to Data Visualization with Matplotlib](./datacamp_matplotlib_certificate.png)
+*Figure 2*  
+*Certificate of Completion: Introduction to Data Visualization with Matplotlib (DataCamp)*
+
+---
+
+### References
+
+DataCamp. (2026). *Introduction to Python* [Online course]. https://www.datacamp.com/courses/intro-to-python-for-data-science
+
+DataCamp. (2026). *Introduction to Data Visualization with Matplotlib* [Online course]. https://www.datacamp.com/courses/introduction-to-data-visualization-with-matplotlib
