@@ -125,19 +125,23 @@ U.S. Census Bureau. (2020). *Selected characteristics of health insurance covera
 
 ### Exercise Objective
 
-The goal of this section is to document my technical skill set, proficiency levels, and the industry-standard software tools utilized throughout my data analytics and visualization journey. It captures my continuous professional development through structured training and links my practical capabilities directly to portfolio work.
+The objective of this section is to document my technical skill set, proficiency levels, and professional tool stack across data analytics, software engineering, and data visualization[cite: 1]. It reflects both structured academic and professional training, highlighting practical application across industry internships, research projects, and university coursework[cite: 1].
 
 ---
 
 ### Technical Skills & Competency Matrix
 
-| Category | Skill / Tool | Specific Capabilities | Proficiency Level | Portfolio Evidence / Application |
+| Category | Skill / Tool | Specific Capabilities & Applied Experience | Proficiency Level | Evidence & Application Context |
 | :--- | :--- | :--- | :--- | :--- |
-| **Programming** | **Python** | Data types, variables, lists, functions, basic scripting, and NumPy arrays | Developing | Completed DataCamp Introduction to Python; data cleaning and parsing |
-| **Data Visualization** | **Matplotlib** | Custom line charts, bar plots, subplots, color styling, axis labeling, and annotations | Developing | Completed DataCamp Introduction to Data Visualization with Matplotlib |
-| **Office & Analytics** | **Microsoft Excel** | Data entry, cross-source verification, formulas, tabular data auditing | Experienced | [Part III: Data Verification Audit](#part-iii-data-verification-audit-howmuchnet) (Comparison.xlsx) |
-| **Design & Perception** | **Visual Auditing** | Gestalt principles, Cleveland & McGill visual hierarchy, preattentive attributes | Experienced | [Part II: PT Bank Central Asia Tbk Analysis](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk) |
-| **Data Integrity** | **Source Auditing** | Margin of error assessment, Junk Charts Trifecta Checkup, primary source tracing | Developing | [Part III: Data Verification Audit](#part-iii-data-verification-audit-howmuchnet) |
+| **Data Analytics & ML** | **Python (Prophet, XGBoost, NumPy)** | Time-series sales forecasting, predictive booking models, structured feature analysis, and data preprocessing[cite: 1] | Experienced | Data Analyst Intern at PT Mandiri Utama Finance[cite: 1]; ICISS 2025 Lung Cancer Prediction Research[cite: 1]; DataCamp Introduction to Python |
+| **Data Visualization** | **Matplotlib & Seaborn** | Custom line charts, time-series plotting, distribution visualisations, subplot structuring, and visual formatting | Experienced | ICISS 2025 feature analysis[cite: 1]; DataCamp Introduction to Data Visualization with Matplotlib |
+| **Business Intelligence** | **Power BI & Microsoft Fabric** | High-traffic executive dashboard optimization, mobile-responsive layouts, custom table-driven tracking, and Fabric storage integration[cite: 1] | Experienced | Executive dashboards deployed during PT Mandiri Utama Finance internship[cite: 1] |
+| **Database & Engineering** | **SQL (T-SQL, Oracle SQL)** | Stored procedure optimization, legacy script refactoring, database querying, relational schema mapping[cite: 1] | Experienced | Data Warehousing & MIS ETL workflows at PT Mandiri Utama Finance[cite: 1] |
+| **ETL & Orchestration** | **Apache NiFi & Apache Airflow** | Automated ETL pipeline deployment, scheduled workflow orchestration, and enterprise CRM data ingestion[cite: 1] | Developing | Data engineering pipeline automation at PT Mandiri Utama Finance[cite: 1] |
+| **Programming** | **Java & C++** | Object-oriented programming, algorithmic implementation, and fundamental data structure design[cite: 1] | Experienced | Foundational Computer Science & Software Engineering coursework (BINUS / RMIT)[cite: 1] |
+| **Hardware & IoT** | **ESP32 & Arduino** | Microcontroller programming, multi-sensor integration, hardware-software interfacing, and prototyping[cite: 1] | Experienced | Smart Environmental Protection System (Team Lead & Developer)[cite: 1] |
+| **Version Control** | **Git & GitHub** | Collaborative branch management, source code tracking, commit hygiene, and repository maintenance[cite: 1] | Experienced | Academic software projects and GitHub repositories[cite: 1] |
+| **Data Auditing & Design** | **Visual Perception & Verification** | Junk Charts Trifecta Checkup, Cleveland & McGill visual hierarchy, Gestalt perceptual principles, margin of error analysis | Experienced | [Part II: BBCA Candlestick Analysis](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk); [Part III: HowMuch.net Audit](#part-iii-data-verification-audit-howmuchnet) |
 
 ---
 
@@ -145,7 +149,7 @@ The goal of this section is to document my technical skill set, proficiency leve
 
 #### 1. Introduction to Python (DataCamp)
 * **Issuing Organization:** DataCamp
-* **Topics Covered:** Python basics, lists, functions, packages, and NumPy array manipulation.
+* **Topics Covered:** Python data structures (lists, dictionaries), functions, package management, and numerical computing with NumPy.
 * **Certificate:**
 
 ![DataCamp Certificate - Introduction to Python](./datacamp_intro_to_python_certificate.png)
@@ -154,7 +158,7 @@ The goal of this section is to document my technical skill set, proficiency leve
 
 #### 2. Introduction to Data Visualization with Matplotlib (DataCamp)
 * **Issuing Organization:** DataCamp
-* **Topics Covered:** Plotting time-series, customized bar charts, scatter plots, visual styling, automating plot generation, and sharing visualizations.
+* **Topics Covered:** Quantitative data plotting, time-series visual styling, comparative categorical plots, statistical annotations, and automated figure export.
 * **Certificate:**
 
 ![DataCamp Certificate - Introduction to Data Visualization with Matplotlib](./datacamp_matplotlib_certificate.png)
