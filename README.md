@@ -5,7 +5,7 @@
   * [Go to Part I: Steps vs. Average Air Temperature](#part-i-steps-vs-average-air-temperature)
   * [Go to Part II: Web Data Visualisation Analysis (PT Bank Central Asia Tbk)](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk)
 * [Bundle 2](#bundle-2)
-  * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet-(28/08/26))
+  * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet-280826)
   * [Go to Part IV: Tools of the Trade (Technical Skills & Certification)](#part-iv-tools-of-the-trade-technical-skills--certification)
 
 ---
@@ -125,7 +125,7 @@ U.S. Census Bureau. (2020). *Selected characteristics of health insurance covera
 
 ### Exercise Objective
 
-The objective of this section is to document my technical skill set, proficiency levels, and professional tool stack across data analytics, software engineering, and data visualization[cite: 1]. It reflects both structured academic and professional training, highlighting practical application across industry internships, research projects, and university coursework[cite: 1].
+The objective of this section is to document my technical skill set, proficiency levels, and professional tool stack across data analytics, software engineering, and data visualization. It reflects both structured academic and professional training, highlighting practical application across industry internships, research projects, and university coursework.
 
 ---
 
@@ -133,15 +133,15 @@ The objective of this section is to document my technical skill set, proficiency
 
 | Category | Skill / Tool | Specific Capabilities & Applied Experience | Proficiency Level | Evidence & Application Context |
 | :--- | :--- | :--- | :--- | :--- |
-| **Data Analytics & ML** | **Python (Prophet, XGBoost, NumPy)** | Time-series sales forecasting, predictive booking models, structured feature analysis, and data preprocessing[cite: 1] | Experienced | Data Analyst Intern at PT Mandiri Utama Finance[cite: 1]; ICISS 2025 Lung Cancer Prediction Research[cite: 1]; DataCamp Introduction to Python |
-| **Data Visualization** | **Matplotlib & Seaborn** | Custom line charts, time-series plotting, distribution visualisations, subplot structuring, and visual formatting | Experienced | ICISS 2025 feature analysis[cite: 1]; DataCamp Introduction to Data Visualization with Matplotlib |
-| **Business Intelligence** | **Power BI & Microsoft Fabric** | High-traffic executive dashboard optimization, mobile-responsive layouts, custom table-driven tracking, and Fabric storage integration[cite: 1] | Experienced | Executive dashboards deployed during PT Mandiri Utama Finance internship[cite: 1] |
-| **Database & Engineering** | **SQL (T-SQL, Oracle SQL)** | Stored procedure optimization, legacy script refactoring, database querying, relational schema mapping[cite: 1] | Experienced | Data Warehousing & MIS ETL workflows at PT Mandiri Utama Finance[cite: 1] |
-| **ETL & Orchestration** | **Apache NiFi & Apache Airflow** | Automated ETL pipeline deployment, scheduled workflow orchestration, and enterprise CRM data ingestion[cite: 1] | Developing | Data engineering pipeline automation at PT Mandiri Utama Finance[cite: 1] |
-| **Programming** | **Java & C++** | Object-oriented programming, algorithmic implementation, and fundamental data structure design[cite: 1] | Experienced | Foundational Computer Science & Software Engineering coursework (BINUS / RMIT)[cite: 1] |
-| **Hardware & IoT** | **ESP32 & Arduino** | Microcontroller programming, multi-sensor integration, hardware-software interfacing, and prototyping[cite: 1] | Experienced | Smart Environmental Protection System (Team Lead & Developer)[cite: 1] |
-| **Version Control** | **Git & GitHub** | Collaborative branch management, source code tracking, commit hygiene, and repository maintenance[cite: 1] | Experienced | Academic software projects and GitHub repositories[cite: 1] |
-| **Data Auditing & Design** | **Visual Perception & Verification** | Junk Charts Trifecta Checkup, Cleveland & McGill visual hierarchy, Gestalt perceptual principles, margin of error analysis | Experienced | [Part II: BBCA Candlestick Analysis](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk); [Part III: HowMuch.net Audit](#part-iii-data-verification-audit-howmuchnet) |
+| **Data Analytics & ML** | **Python (Prophet, XGBoost, NumPy)** | Time-series sales forecasting, predictive booking models, structured feature analysis, and data preprocessing | Developing | Data Analyst Intern at PT Mandiri Utama Finance; ICISS 2025 Lung Cancer Prediction Research; DataCamp Introduction to Python |
+| **Data Visualization** | **Matplotlib & Seaborn** | Custom line charts, time-series plotting, distribution visualisations, subplot structuring, and visual formatting | Developing | ICISS 2025 feature analysis; DataCamp Introduction to Data Visualization with Matplotlib |
+| **Business Intelligence** | **Power BI & Microsoft Fabric** | High-traffic executive dashboard optimization, mobile-responsive layouts, custom table-driven tracking, and Fabric storage integration | Developing | Executive dashboards deployed during PT Mandiri Utama Finance internship |
+| **Database & Engineering** | **SQL (T-SQL, Oracle SQL)** | Stored procedure optimization, legacy script refactoring, database querying, relational schema mapping | Developing | Data Warehousing & MIS ETL workflows at PT Mandiri Utama Finance |
+| **ETL & Orchestration** | **Apache NiFi & Apache Airflow** | Automated ETL pipeline deployment, scheduled workflow orchestration, and enterprise CRM data ingestion | Developing | Data engineering pipeline automation at PT Mandiri Utama Finance |
+| **Programming** | **Java & C++** | Object-oriented programming, algorithmic implementation, and fundamental data structure design | Developing | Foundational Computer Science & Software Engineering coursework (BINUS / RMIT) |
+| **Hardware & IoT** | **ESP32 & Arduino** | Microcontroller programming, multi-sensor integration, hardware-software interfacing, and prototyping | Developing | Smart Environmental Protection System (Team Lead & Developer) |
+| **Version Control** | **Git & GitHub** | Collaborative branch management, source code tracking, commit hygiene, and repository maintenance | Developing | Academic software projects and GitHub repositories |
+| **Data Auditing & Design** | **Visual Perception & Verification** | Junk Charts Trifecta Checkup, Cleveland & McGill visual hierarchy, Gestalt perceptual principles, margin of error analysis | Developing | [Part II: BBCA Candlestick Analysis](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk); [Part III: HowMuch.net Audit](#part-iii-data-verification-audit-howmuchnet) |
 
 ---
 
