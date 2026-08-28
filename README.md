@@ -86,28 +86,28 @@ TradingView. (2026). *PT Bank Central Asia Tbk stock price and chart* [Financial
 
 ### Exercise Objective
 
-The objective of this portfolio exercise is to audit a published web data visualization for data integrity, trace reported figures back to their primary source of origin, analyze the visual encoding and level of measurement of each variable, assess the alignment between the underlying question and data, and critically evaluate the limitations of the source data.
+The objective of this exercise is to take a look at a published data visualization and verify if it is correct and appropriate. I have to trace their primary source and analyze the visualization and visual encoding to see if there are any discrepancies and if there is an alignment between the core question and data.
 
 ---
 
 ### Data Analysis and Verification
 
 #### 1. Types of Variables and Levels of Measurement
-* **Geographic entity (U.S. States):** Represented using hexagons arranged in the shape of the U.S., where each border defines a geographical boundary. The unit is the state name, and the level of measurement is Nominal.
-* **Uninsured Rate (Percentage):** Represented by numerical labels. The unit is the percentage of the uninsured population (%), and the level of measurement is Ratio (a continuous numeric scale with an absolute zero).
-* **Color Hue & Shading (Choropleth Scale):** Represented by the fill color of each hexagon. The unit is visual gradient intensity, and the level of measurement is Ordinal.
+* **Geographic entity (U.S. States):** It is represented using hexagons that are laid out in a rough shape of the U.S. where each hexagon border represents geographical boundary. The unit is the state name, and the level of measurement is Nominal.
+* **Uninsured Rate (Percentage):** It is represented by numerical labels. The unit is the percentage of uninsured population (%), and level of measurement is Ratio (continuous numeric scale with a true zero).
+* **Color Hue & Shading (Choropleth Scale):**  Represented by the fill color of the hexagons. The unit is the visual gradient intensity and the level of measurement is Ordinal.
 
 #### 2. Alignment of Data and Question
-* **Data (D):** State-level percentages of civilian non-institutionalized residents without health insurance from the 2019 ACS 1-Year Estimates (U.S. Census Bureau, 2020).
-* **Core Question (Q):** How does health insurance coverage vary geographically across the United States, and which states exhibit the highest and lowest rates of uninsured residents?
-* **Alignment:** Evaluated using the Junk Charts Trifecta Checkup (Fung, 2014), there is strong alignment between the core question and the data. Measuring uninsured population proportions by state directly resolves geographic disparity questions.
+* **Data (D):** State level percentages of civilian non-institutionalized residents without insurance from the ACS 1-Year Estimates (U.S. Census Bureau, 2020).
+* **Core Question (Q):** How does health insurance coverage vary geographically across the United States, and which states exhibit the highest/lowest rates of uninsured residents?
+* **Alignment:** Using the Junk Charts Trifecta Checkup framework (Fung, 2014), there is strong alignment between the core question and the data provided (HowMuch.net, 2021).  Measuring the uninsured percentage by state answers the question of the differences between states.
 
 #### 3. Data Verification
-* **Verification Findings:** The verification results are recorded in Comparison.xlsx. The figures visualized by HowMuch.net (2021) match the official U.S. Census Bureau (2020) ACS Table S2701 dataset with zero discrepancies.
-* **Confidence:** Confidence in data accuracy is high. However, a potential point of confusion exists: HowMuch.net published the graphic in 2021 using 2019 pre-pandemic data. Without the year specified in the title, readers might assume the graphic reflects contemporary 2021 pandemic-era rates.
+* **Verification Findings:** I placed my data verification results in Comparison.xlsx, and from what I see, all the data visualized from HowMuch.net matches exactly with the data from the official U.S. Census Bureau (2020) ACS Table S2701 dataset exactly. There were no errors found.
+* **Confidence:** I am very confident with the data that HowMuch.net (2021) used is accurate, but there is one tiny thing that might mislead the readers. The article and visualization was published in 2021, but the data that HowMuch.net uses is from 2019, so some readers might be mislead and think that they used 2021 data if read carelessly as the article title didn’t say anything about the year.
 
 #### 4. Data Source Examination
-The primary dataset from the U.S. Census Bureau (2020) is authoritative and reputable. However, because the American Community Survey relies on probability sampling rather than a total population count, each estimate carries a reported margin of error (e.g., ±0.2% for Texas, ±1.3% for Wyoming).
+-	The primary data source used by HowMuch.net (2021) is highly reputable, as it is published by the U.S. Census Bureau (2020).Even if the data source is reputable, there are also limitations to the data provided. Since the American Community Survey is done using a sample instead of census, each percentage has a margin of error. 
 
 ---
 
@@ -125,7 +125,7 @@ U.S. Census Bureau. (2020). *Selected characteristics of health insurance covera
 
 ### Exercise Objective
 
-The objective of this section is to document my technical skill set, proficiency levels, and professional tool stack across data analytics, software engineering, and data visualization. It reflects both structured academic and professional training, highlighting practical application across industry internships, research projects, and university coursework.
+The objective of this section is to show my technical skill set and how proficient I am. It shows where I gained the skills and how I applied it.
 
 ---
 
@@ -141,7 +141,7 @@ The objective of this section is to document my technical skill set, proficiency
 | **Programming** | **Java & C++** | Object-oriented programming, algorithmic implementation, and fundamental data structure design | Developing | Foundational Computer Science & Software Engineering coursework (BINUS / RMIT) |
 | **Hardware & IoT** | **ESP32 & Arduino** | Microcontroller programming, multi-sensor integration, hardware-software interfacing, and prototyping | Developing | Smart Environmental Protection System (Team Lead & Developer) |
 | **Version Control** | **Git & GitHub** | Collaborative branch management, source code tracking, commit hygiene, and repository maintenance | Developing | Academic software projects and GitHub repositories |
-| **Data Auditing & Design** | **Visual Perception & Verification** | Junk Charts Trifecta Checkup, Cleveland & McGill visual hierarchy, Gestalt perceptual principles, margin of error analysis | Developing | [Part II: BBCA Candlestick Analysis](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk); [Part III: HowMuch.net Audit](#part-iii-data-verification-audit-howmuchnet) |
+| **Data Auditing & Design** | **Visual Perception & Verification** | Junk Charts Trifecta Checkup, Cleveland & McGill visual hierarchy, Gestalt perceptual principles, margin of error analysis | Developing | [Part II: BBCA Candlestick Analysis](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk); [Part III: HowMuch.net Audit](#part-iii-data-verification-audit-howmuchnet-280826) |
 
 ---
 
