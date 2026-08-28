@@ -7,6 +7,7 @@
 * [Bundle 2](#bundle-2)
   * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet-280826)
   * [Go to Part IV: Tools of the Trade (Technical Skills & Certification)](#part-iv-tools-of-the-trade-technical-skills--certification)
+  * [Go to Part V: Data Visualisation Reproduction & Reconstruction (Our World in Data)](#part-v-data-visualisation-reproduction--reconstruction-our-world-in-data-280826)
 
 ---
 
@@ -172,3 +173,72 @@ The objective of this section is to show my technical skill set and how proficie
 DataCamp. (2026). *Introduction to Python* [Online course]. https://www.datacamp.com/courses/intro-to-python-for-data-science
 
 DataCamp. (2026). *Introduction to Data Visualization with Matplotlib* [Online course]. https://www.datacamp.com/courses/introduction-to-data-visualization-with-matplotlib
+
+---
+
+## Part V: Data Visualisation Reproduction & Reconstruction (Our World in Data) (28/08/26)
+
+### Master Data Visualization
+
+![Master Data Visualisation: Population Growth for Selected Countries (1950–2023)](./Master.png)
+*Figure 1*  
+*Master Data Visualization: Population Growth for Selected Countries (1950–2023). Sourced from Our World in Data (2024).*
+
+---
+
+### Replications & Visual Outputs
+
+#### 1. Original Recreation
+
+![Replicated Visualization matching original Our World in Data color scheme](./Recreation_original_colors.png)
+*Figure 2*  
+*Replicated Visualization matching the layout, typography, and original categorical colour palette of Our World in Data using data from Our World in Data (2024).*
+
+#### Methodology & Step-by-Step Process
+How I recreated the visualization was first using data from Our World in Data (2024) and filtering out the years so that it only takes the data from 1950 until 2023, and only using the 8 selected countries. After that, I had to start formatting the Y axis and X axis so that it shows the same way that the original did. And after that, it was on to the process of adding in the tiny little details like the brackets that connected the lines from the plotted lines, and the country name. For the color palette of the recreation, I went on Figma to use their color picker and tried my best to get the same color as the original. 
+
+A problem I faced when making the recreation is that there was a lot of trial and error for the placement of the bracket points and I had to look up how to make it so that the country labels didn’t clip together. There was quite a bit of trial and error in recreating the original visualization. Another problem I faced was that I can’t really get the font style and styling just right for the title, so there are some differences in that area. I also couldn’t add the interactivity and I did not add the choice bar up top that the original had because I haven’t learned the skill yet and it can be a future goal for me. I also added the logo of Our World in Data in the top right corner as well to make it seem much more similar to the original.
+
+---
+
+#### 2. Reconstruction with an Alternative (Accessible) Colour Scale
+
+![Reconstructed Visualization utilizing an accessible color scale](./Recreation_accessible_colors.png)
+*Figure 3*  
+*Reconstructed Visualization utilizing the accessible Okabe-Ito colour scale (Siegal Lab, n.d.).*
+
+#### Explanation of Colour Scale Development
+I was tasked with using an alternate color palette for the visualization and I wanted to use something that is accessible to color blind people. I did my own research and landed on the Okabe-Ito color palette (Siegal Lab, n.d.). It was a color palette I liked, because it still had really distinct colors while still accommodating for color blind people. 
+
+There is a problem with the palette though. The color used for Nigeria is part of the palette, but it does not really contrast well with a white background. In the future, I would like to do a bit more research and see if I can fix this by either changing it to another accessible color, or maybe changing the background color so that it contrasts better.
+
+---
+
+### Data Card
+
+| Section | Details |
+| :--- | :--- |
+| **Title** | Population Growth by Country (1950–2023) |
+| **Summary** | A multi-line time series visualization showing total national population trends from 1950 to 2023 for eight different countries: China, India, United States, Indonesia, Pakistan, Nigeria, Brazil, and Japan. |
+| **Data Sources** | • **Primary Source / Host:** Our World in Data. (2024). *Population and Demography Data Explorer* [Data set]. https://ourworldindata.org/explorers/population-and-demography?indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN<br><br>• **Original Source:** United Nations, Department of Economic and Social Affairs, Population Division. (2024). *World Population Prospects 2024, Online Edition* [Data set]. United Nations. https://population.un.org/wpp/ |
+| **Mapping** | • **X-axis:** Calendar Year — continuous annual time steps from 1950 to 2023 (UN DESA / OWID, 2024).<br><br>• **Y-axis:** Total Population (both sexes, all ages) — measured in counts (headcount), formatted into millions and billions (e.g., 200 million, 1.4 billion) (UN DESA / OWID, 2024).<br><br>• **Color / Hue (Encoding):** Categorical line colors mapping each of the 8 countries. |
+| **Important Notes** | • **Preprocessing & Filtering:** The full source dataset has global historical and projected population figures across hundreds of different countries. The data was filtered exclusively for the years 1950 to 2023 and filtered to the 8 specified countries. The table was pivoted so each country forms an individual time series column.<br><br>• **Missing Data:** No missing values were present for the selected 8 countries over the 1950–2023 period.<br><br>• **Methodological Context:** Estimates derive from demographic models based on national censuses and vital registration statistics harmonized by UN DESA. Historical figures for conflict periods or developing nations incorporate backcasting estimates. |
+| **Access** | • **Direct Page Access & Download:** [Our World in Data Population Explorer](https://ourworldindata.org/explorers/population-and-demography?overlay=download-data&indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN) |
+
+---
+
+### Generative AI Acknowledgment
+
+In accordance with RMIT academic integrity guidelines, generative AI (Google Gemini, August 2026 version) was used in this portfolio exercise (Google, 2026). Gemini was consulted to assist with Python matplotlib code syntax for custom tick formatters, mathematical calculation of the stepped connector bracket coordinates (`clip_on=False` behavior), Okabe-Ito hex code mapping, and APA referencing formatting. All final data filtering, code execution, image outputs, and analytical text were reviewed and verified independently.
+
+---
+
+### References
+
+Google. (2026, August 28). *Population data visualisation reproduction* [Generative AI chat]. Gemini. https://share.gemini.google/kSvBB1YkYkiL
+
+Our World in Data. (2024). *Population, 1950 to 2023* [Data visualization and data set]. Global Change Data Lab. https://ourworldindata.org/explorers/population-and-demography?indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN
+
+Siegal Lab. (n.d.). *Color palette*. Department of Biology and Center for Genomics & Systems Biology, New York University. https://siegal.bio.nyu.edu/color-palette/
+
+United Nations, Department of Economic and Social Affairs, Population Division. (2024). *World Population Prospects 2024, Online Edition* [Data set]. United Nations. https://population.un.org/wpp/
