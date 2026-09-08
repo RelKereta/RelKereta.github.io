@@ -248,3 +248,53 @@ Our World in Data. (2024). *Population, 1950 to 2023* [Data visualization and da
 Siegal Lab. (n.d.). *Color palette*. Department of Biology and Center for Genomics & Systems Biology, New York University. https://siegal.bio.nyu.edu/color-palette/
 
 United Nations, Department of Economic and Social Affairs, Population Division. (2024). *World Population Prospects 2024, Online Edition* [Data set]. United Nations. https://population.un.org/wpp/
+
+---
+
+## Part VI: Checked and accessible! (Our World in Data) (08/09/26)
+
+### Exercise Objective
+
+The objective of this exercise is to learn about accessibility in data visualizations and how we can implement it into our recreation from module 5. Whet we needed to do is to put our visualization into the checklist and see if it complies with the checklist. Once we are done with that, we are supposed to plan out what improvements we can make and implement it.
+---
+### Master Visualization and Before State
+
+![Master Data Visualization](./Master.png)  
+*Figure 1*  
+*Master Data Visualization. Sourced from Our World in Data (2024).*
+
+![Before Improvements: Reconstructed Visualization using standard Okabe-Ito colour scale](./Recreation_accessible_colors.png)  
+*Figure 2*  
+*Before Improvements: Reconstructed Visualization using the standard Okabe-Ito colour scale (Siegal Lab, n.d.).*
+
+---
+
+### Summary of Planned Improvements
+
+I put my previous recreation with accessible colors in the checklist and found two areas where I can improve the visualization:
+
+* **Accessibility Improvement (Contrast and Dual Encoding):** For the original accessible recreation, I used the Okabe-Ito palette. While it is a colorblind safe palette, the yellow in the palette used for Nigeria does not really contrast well with the white background, so I changed it and darkened it to a high contrast gold color. Additionally, I found that the visualization would not be that accessible if it were to be printed in black and white as it would be hard to tell the lines at the bottom apart as they overlap with each other. So, I tried doing something like texturing by making some lines dashed and dotted, but according to me, when it is colored, it causes a bit more visual clutter, so I opted to make two versions.
+* **Text Hierarchy & Titling:** The checklist says that a visualization must have a descriptive, full sentence title positioned in the upper left with a supporting subtitle beneath it (Evergreen, n.d.). The original data visualization only featured a generic title saying “Population”, which does not comply with the checklist, so I replaced it with the main story of the visualization and with a subtitle explaining the x and y axis and timeframe of the data visualization.
+
+---
+
+### After Improvements State
+
+![After Improvements (Solid): Visualization with active text hierarchy and contrast-adjusted accessible colors](./Recreation_accessible_improved_solid.png)  
+*Figure 3*  
+*After Improvements (Solid): Visualization with active text hierarchy and contrast-adjusted accessible colors.*
+
+![After Improvements (Dual Encoded): Visualization incorporating dashed line styles to ensure legibility when printed in grayscale](./Recreation_accessible_improved_dashed.png)  
+*Figure 4*  
+*After Improvements (Dual Encoded): Visualization incorporating dashed line styles to ensure legibility when printed in grayscale.*
+
+---
+
+
+### References
+
+Evergreen, S. (n.d.). Data visualization checklist. https://www.datavisualizationchecklist.com/
+
+Our World in Data. (2024). *Population, 1950 to 2023* [Data visualization and data set]. Global Change Data Lab. https://ourworldindata.org/explorers/population-and-demography?indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN
+
+Siegal Lab. (n.d.). *Color palette*. Department of Biology and Center for Genomics & Systems Biology, New York University. https://siegal.bio.nyu.edu/color-palette/
