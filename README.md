@@ -1,16 +1,22 @@
-# Bundle 1
-
 ### Table of Contents
-* [Bundle 1](#bundle-1)
+* [Bundle 1.1]
   * [Go to Part I: Steps vs. Average Air Temperature](#part-i-steps-vs-average-air-temperature)
   * [Go to Part II: Web Data Visualisation Analysis (PT Bank Central Asia Tbk)](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk)
-* [Bundle 2](#bundle-2)
+* [Bundle 1.2]
   * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet-280826)
   * [Go to Part IV: Tools of the Trade (Technical Skills & Certification)](#part-iv-tools-of-the-trade-technical-skills--certification)
-  * [Go to Part V: Data Visualisation Reproduction & Reconstruction (Our World in Data) (28/08/26)](#part-v-data-visualisation-reproduction--reconstruction-our-world-in-data-280826)
+* [Bundle 2.1]
+  * [Go to Part VI: Checked and accessible! (Our World in Data) (08/09/26)](#part-vi-checked-and-accessible-our-world-in-data-080926)
+  
+---
+
+# Part 1
 
 ---
 
+# Bundle 1
+
+---
 ## Part I: Steps vs. Average Air Temperature
 
 ### Data Visualization
@@ -251,6 +257,13 @@ United Nations, Department of Economic and Social Affairs, Population Division. 
 
 ---
 
+# Part 2
+
+---
+
+# Bundle 1
+
+---
 ## Part VI: Checked and accessible! (Our World in Data) (08/09/26)
 
 ### Exercise Objective
