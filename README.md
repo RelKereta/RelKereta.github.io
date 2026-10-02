@@ -347,11 +347,11 @@ The objective of this portfolio exercise is to transform an existing univariate 
 
 ### Visualisations: Original vs. Re-creation
 
-![Original ABS Line Chart: Crude death rates for assault by sex, 2015-2024](./original_abs_assault_chart.png)  
+![Original ABS Line Chart: Crude death rates for assault by sex, 2015-2024](./Screenshot_of_Original.png)  
 *Figure 1*  
 *Original data visualisation from the Australian Bureau of Statistics (2025/2026) showing national crude death rates for assault by sex (2015–2024).*
 
-![Direct Re-creation of ABS Line Chart](./recreation_abs_line_chart.png)  
+![Direct Re-creation of ABS Line Chart](./01_original_recreation.png)  
 *Figure 2*  
 *Python recreation of the ABS line chart displaying crude death rates for assault by sex from 2015 to 2024.*
 
@@ -359,7 +359,7 @@ The objective of this portfolio exercise is to transform an existing univariate 
 
 ### Multivariate Data Visualisation
 
-![Multivariate Assault Mortality Trends across Australian Jurisdictions (2015–2024)](./multivariate_assault_mortality.png)  
+![Multivariate Assault Mortality Trends across Australian Jurisdictions (2015–2024)](./02_multivariate_final.png)  
 *Figure 3*  
 *Multivariate faceted visualization incorporating 5 dimensions (Year, Crude Rate, Sex, Jurisdiction, and Incident Volume) using an accessible colorblind-safe palette and dual visual encodings.*
 
@@ -411,11 +411,11 @@ The objective of this portfolio exercise is to develop a well-designed, publicat
 
 ### Visualisations: Original vs. Re-creation
 
-![Original Dual-Panel Snapshot from Our World in Data](./owid_poverty_original_maps.png)  
+![Original Dual-Panel Snapshot from Our World in Data](./Screenshot_of_Original_(1).png)  
 *Figure 1*  
 *Original dual-panel snapshot from Our World in Data (2026) displaying the share of population living below $3/day in 2015 versus 2025.*
 
-![Re-created Spatial Visualization: Global Shift in Extreme Poverty Rates](./poverty_shift_spatial_map.png)  
+![Re-created Spatial Visualization: Global Shift in Extreme Poverty Rates](./poverty_rate_change_map.png)  
 *Figure 2*  
 *Re-created spatial visualisation displaying the net percentage-point trajectory using the ColorBrewer BrBG diverging palette and Equal Earth projection.*
 
