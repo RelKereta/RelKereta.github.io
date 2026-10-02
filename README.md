@@ -325,23 +325,23 @@ Siegal Lab. (n.d.). *Color palette*. Department of Biology and Center for Genomi
 
 ### Exercise Objective
 
-The objective of this portfolio exercise is to transform an existing univariate or bivariate web data visualisation into an accessible, publication-ready multivariate visualisation displaying at least three or more meaningful variables[cite: 2]. Using mortality data sourced from the Australian Bureau of Statistics (ABS), I extended a basic temporal line chart into a 5-dimensional multivariate dashboard that incorporates temporal trends, mortality rates, biological sex, geographic jurisdiction, and total incident volume[cite: 2].
+The objective of this portfolio exercise is to transform an existing univariate or bivariate web data visualisation into an accessible, publication-ready multivariate visualisation displaying at least three or more meaningful variables. Using mortality data sourced from the Australian Bureau of Statistics (ABS), I extended a basic temporal line chart into a 5-dimensional multivariate dashboard that incorporates temporal trends, mortality rates, biological sex, geographic jurisdiction, and total incident volume.
 
 ---
 
 ### Step-by-Step Exercise Summary
 
-1. **Folder Setup & Project Architecture:** Created the dedicated directory `Module 7 - Portfolio Exercise` within my OneDrive workspace to store project notes, datasets, Python scripts, exported figures, and data cards[cite: 2].
-2. **Visualisation Sourcing & Reference:** Sourced an official line chart from the Australian Bureau of Statistics (ABS) showing crude death rates for assault across Australia from 2015 to 2024 broken down by sex and persons[cite: 2].
-3. **Variable Selection & Dimension Design:** Identified additional dimensions within the ABS Causes of Death release to add depth to the original chart[cite: 2]. I selected five variables:
-   * **Year of Registration (2015–2024):** Temporal dimension[cite: 2].
-   * **Crude Death Rate (per 100,000 population):** Continuous quantitative rate[cite: 2].
-   * **Sex (Males vs. Females):** Categorical nominal[cite: 2].
-   * **Jurisdiction / State (NSW, VIC, QLD, WA):** Spatial categorical[cite: 2].
-   * **Total Deaths (Incident Volume):** Discrete quantitative count[cite: 2].
-4. **Data Wrangling & Pipeline Preparation:** Using Python (`pandas`), extracted state-level and sex-disaggregated death counts and population-adjusted rates for Australia's four largest jurisdictions[cite: 2]. Reshaped the data into tidy long format and dropped the redundant aggregate "Persons" metric to focus comparisons directly between males and females[cite: 2].
-5. **Multivariate Visualization Build:** Implemented a 2 × 2 faceted small-multiples grid (`FacetGrid` in Seaborn/Matplotlib) separated by state to prevent overplotting[cite: 2]. Encoded the quantitative crude rate on the common Y-axis and incident volume into proportional circle/square marker areas[cite: 2].
-6. **Accessibility & Publication Readiness:** Applied the colorblind-safe Okabe-Ito palette (Deep Blue `#0072B2` and Vermilion `#D55E00`), accompanied by redundant dual encodings (solid lines with circular markers for males; dashed lines with square markers for females) and semi-transparent marker fills to preserve legibility in grayscale printing[cite: 2].
+1. **Folder Setup & Project Architecture:** Created the dedicated directory `Module 7 - Portfolio Exercise` within my OneDrive workspace to store project notes, datasets, Python scripts, exported figures, and data cards.
+2. **Visualisation Sourcing & Reference:** Sourced an official line chart from the Australian Bureau of Statistics (ABS) showing crude death rates for assault across Australia from 2015 to 2024 broken down by sex and persons.
+3. **Variable Selection & Dimension Design:** Identified additional dimensions within the ABS Causes of Death release to add depth to the original chart. I selected five variables:
+   * **Year of Registration (2015–2024):** Temporal dimension.
+   * **Crude Death Rate (per 100,000 population):** Continuous quantitative rate.
+   * **Sex (Males vs. Females):** Categorical nominal.
+   * **Jurisdiction / State (NSW, VIC, QLD, WA):** Spatial categorical.
+   * **Total Deaths (Incident Volume):** Discrete quantitative count.
+4. **Data Wrangling & Pipeline Preparation:** Using Python (`pandas`), extracted state-level and sex-disaggregated death counts and population-adjusted rates for Australia's four largest jurisdictions. Reshaped the data into tidy long format and dropped the redundant aggregate "Persons" metric to focus comparisons directly between males and females.
+5. **Multivariate Visualization Build:** Implemented a 2 × 2 faceted small-multiples grid (`FacetGrid` in Seaborn/Matplotlib) separated by state to prevent overplotting. Encoded the quantitative crude rate on the common Y-axis and incident volume into proportional circle/square marker areas.
+6. **Accessibility & Publication Readiness:** Applied the colorblind-safe Okabe-Ito palette (Deep Blue `#0072B2` and Vermilion `#D55E00`), accompanied by redundant dual encodings (solid lines with circular markers for males; dashed lines with square markers for females) and semi-transparent marker fills to preserve legibility in grayscale printing.
 
 ---
 
@@ -349,11 +349,11 @@ The objective of this portfolio exercise is to transform an existing univariate 
 
 ![Original ABS Line Chart: Crude death rates for assault by sex, 2015-2024](./original_abs_assault_chart.png)  
 *Figure 1*  
-*Original data visualisation from the Australian Bureau of Statistics (2025/2026) showing national crude death rates for assault by sex (2015–2024)[cite: 2].*
+*Original data visualisation from the Australian Bureau of Statistics (2025/2026) showing national crude death rates for assault by sex (2015–2024).*
 
 ![Direct Re-creation of ABS Line Chart](./recreation_abs_line_chart.png)  
 *Figure 2*  
-*Python recreation of the ABS line chart displaying crude death rates for assault by sex from 2015 to 2024[cite: 2].*
+*Python recreation of the ABS line chart displaying crude death rates for assault by sex from 2015 to 2024.*
 
 ---
 
@@ -361,7 +361,7 @@ The objective of this portfolio exercise is to transform an existing univariate 
 
 ![Multivariate Assault Mortality Trends across Australian Jurisdictions (2015–2024)](./multivariate_assault_mortality.png)  
 *Figure 3*  
-*Multivariate faceted visualization incorporating 5 dimensions (Year, Crude Rate, Sex, Jurisdiction, and Incident Volume) using an accessible colorblind-safe palette and dual visual encodings[cite: 2].*
+*Multivariate faceted visualization incorporating 5 dimensions (Year, Crude Rate, Sex, Jurisdiction, and Incident Volume) using an accessible colorblind-safe palette and dual visual encodings.*
 
 ---
 
@@ -369,20 +369,20 @@ The objective of this portfolio exercise is to transform an existing univariate 
 
 | Section | Details |
 | :--- | :--- |
-| **Title** | Multivariate Assault Mortality Trends Across Australian Jurisdictions (2015–2024)[cite: 2] |
-| **Summary** | A faceted time-series dashboard displaying crude assault death rates and absolute victim counts across Australia's four largest states from 2015 to 2024[cite: 2]. Lines depict the population mortality rate, colors and marker shapes differentiate sex, small-multiple subplots isolate jurisdictions, and marker areas indicate absolute incident volume[cite: 2]. Inspired by the baseline assault mortality line chart published by the Australian Bureau of Statistics (ABS, 2025/2026)[cite: 2]. |
-| **Data Sources** | Primary Source & Host: Australian Bureau of Statistics (ABS). (2026). *Causes of death, Australia, 2024* [Data set]. Commonwealth of Australia. https://www.abs.gov.au/statistics/health/causes-death/causes-death-australia/2024#data-downloads[cite: 2] |
-| **Mapping** | * **X-Axis:** Year of Registration (continuous annual interval from 2015 to 2024)[cite: 2].<br>* **Y-Axis:** Crude death rate per 100,000 population (standardized across panels from 0.25 to 1.75)[cite: 2].<br>* **Color & Line Style (Sex):** Deep Blue (`#0072B2`) with solid lines for Males; Vermilion (`#D55E00`) with dashed lines for Females[cite: 2].<br>* **Marker Shape (Sex):** Circles for Males; Squares for Females[cite: 2].<br>* **Marker Area / Size:** Scaled proportionally to raw Total Deaths count (~10 to ~45+ deaths)[cite: 2].<br>* **Facets (Subplots):** 2 × 2 small-multiples grid partitioned by Jurisdiction (New South Wales, Victoria, Queensland, Western Australia)[cite: 2]. |
-| **Important Notes** | * **Preprocessing:** Sourced ICD-10 external causes of morbidity and mortality codes X85–Y09 (Assault)[cite: 2]. Removed the aggregate "Persons" series to eliminate visual redundancy and highlight sex-based disparities[cite: 2]. Filtered to Australia's four largest states to maintain clear visual comparison[cite: 2].<br>* **Data Limitations:** Figures for recent periods (2023–2024) are preliminary and subject to ABS revision following the formal closure of coronial inquests[cite: 2]. Crude death rates do not control for differences in state-level age distributions[cite: 2]. |
-| **Access** | Direct data download: [ABS Causes of Death 2024 Data Downloads](https://www.abs.gov.au/statistics/health/causes-death/causes-death-australia/2024#data-downloads)[cite: 2] |
+| **Title** | Multivariate Assault Mortality Trends Across Australian Jurisdictions (2015–2024) |
+| **Summary** | A faceted time-series dashboard displaying crude assault death rates and absolute victim counts across Australia's four largest states from 2015 to 2024. Lines depict the population mortality rate, colors and marker shapes differentiate sex, small-multiple subplots isolate jurisdictions, and marker areas indicate absolute incident volume. Inspired by the baseline assault mortality line chart published by the Australian Bureau of Statistics (ABS, 2025/2026). |
+| **Data Sources** | Primary Source & Host: Australian Bureau of Statistics (ABS). (2026). *Causes of death, Australia, 2024* [Data set]. Commonwealth of Australia. https://www.abs.gov.au/statistics/health/causes-death/causes-death-australia/2024#data-downloads |
+| **Mapping** | * **X-Axis:** Year of Registration (continuous annual interval from 2015 to 2024).<br>* **Y-Axis:** Crude death rate per 100,000 population (standardized across panels from 0.25 to 1.75).<br>* **Color & Line Style (Sex):** Deep Blue (`#0072B2`) with solid lines for Males; Vermilion (`#D55E00`) with dashed lines for Females.<br>* **Marker Shape (Sex):** Circles for Males; Squares for Females.<br>* **Marker Area / Size:** Scaled proportionally to raw Total Deaths count (~10 to ~45+ deaths).<br>* **Facets (Subplots):** 2 × 2 small-multiples grid partitioned by Jurisdiction (New South Wales, Victoria, Queensland, Western Australia). |
+| **Important Notes** | * **Preprocessing:** Sourced ICD-10 external causes of morbidity and mortality codes X85–Y09 (Assault). Removed the aggregate "Persons" series to eliminate visual redundancy and highlight sex-based disparities. Filtered to Australia's four largest states to maintain clear visual comparison.<br>* **Data Limitations:** Figures for recent periods (2023–2024) are preliminary and subject to ABS revision following the formal closure of coronial inquests. Crude death rates do not control for differences in state-level age distributions. |
+| **Access** | Direct data download: [ABS Causes of Death 2024 Data Downloads](https://www.abs.gov.au/statistics/health/causes-death/causes-death-australia/2024#data-downloads) |
 
 ---
 
 ### References
 
-Australian Bureau of Statistics. (2026). *Causes of death, Australia, 2024* [Data set]. Commonwealth of Australia. https://www.abs.gov.au/statistics/health/causes-death/causes-death-australia/2024#data-downloads[cite: 2]
+Australian Bureau of Statistics. (2026). *Causes of death, Australia, 2024* [Data set]. Commonwealth of Australia. https://www.abs.gov.au/statistics/health/causes-death/causes-death-australia/2024#data-downloads
 
-Australian Bureau of Statistics. (2026). *Deaths from external causes, Australia, 2024*. Commonwealth of Australia. https://www.abs.gov.au/statistics/health/causes-death/deaths-external-causes/2024[cite: 2]
+Australian Bureau of Statistics. (2026). *Deaths from external causes, Australia, 2024*. Commonwealth of Australia. https://www.abs.gov.au/statistics/health/causes-death/deaths-external-causes/2024
 
 
 ---
