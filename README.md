@@ -387,23 +387,25 @@ Australian Bureau of Statistics. (2026). *Deaths from external causes, Australia
 
 ---
 
+---
+
 ## Part VIII: Map it! (Our World in Data & World Bank) (02/10/26)
 
 ### Exercise Objective
 
-The objective of this portfolio exercise is to develop a well-designed, publication-ready spatial data visualisation from web-sourced data[cite: 3]. Rather than keeping two disconnected time-slice maps that require viewers to shift back and forth to spot trends, this exercise consolidates global poverty data into a single, unified geospatial choropleth map[cite: 3]. The visualisation communicates directional shifts (reductions versus increases) in extreme poverty rates over a 10-year period across sovereign nations[cite: 3].
+The objective of this portfolio exercise is to develop a well-designed, publication-ready spatial data visualisation from web-sourced data. Rather than keeping two disconnected time-slice maps that require viewers to shift back and forth to spot trends, this exercise consolidates global poverty data into a single, unified geospatial choropleth map. The visualisation communicates directional shifts (reductions versus increases) in extreme poverty rates over a 10-year period across sovereign nations.
 
 ---
 
 ### Step-by-Step Exercise Summary
 
-1. **Workspace Architecture:** Set up a dedicated workspace directory named `Module 8 - Portfolio Exercise` within OneDrive to manage spatial datasets, Python analysis notebooks, shapefile vector archives, and exported cartographic figures[cite: 3].
-2. **Data Sourcing & Spatial Acquisition:** Sourced national headcount poverty ratios below the international poverty threshold ($3.00/day, 2017 PPP) from Our World in Data (2026) and the World Bank Poverty and Inequality Platform (World Bank, 2026)[cite: 3]. Vector shapefiles for global administrative boundaries (1:110m Admin-0 Countries) were obtained from Natural Earth (2026)[cite: 3].
-3. **Data Wrangling & Delta Calculation:** In Python using `pandas`, filtered out regional aggregates (such as "World" and "Sub-Saharan Africa") and localized urban/rural partitions[cite: 3]. Extracted the baseline 2015 rate ($R_{2015}$) alongside the most recent post-2020 observation ($R_{\text{recent}}$) to calculate the net percentage-point change[cite: 3]:
+1. **Workspace Architecture:** Set up a dedicated workspace directory named `Module 8 - Portfolio Exercise` within OneDrive to manage spatial datasets, Python analysis notebooks, shapefile vector archives, and exported cartographic figures.
+2. **Data Sourcing & Spatial Acquisition:** Sourced national headcount poverty ratios below the international poverty threshold ($3.00/day, 2017 PPP) from Our World in Data (2026) and the World Bank Poverty and Inequality Platform (World Bank, 2026). Vector shapefiles for global administrative boundaries (1:110m Admin-0 Countries) were obtained from Natural Earth (2026).
+3. **Data Wrangling & Delta Calculation:** In Python using `pandas`, filtered out regional aggregates (such as "World" and "Sub-Saharan Africa") and localized urban/rural partitions. Extracted the baseline 2015 rate ($R_{2015}$) alongside the most recent post-2020 observation ($R_{\text{recent}}$) to calculate the net percentage-point change:
    $$\Delta = R_{\text{recent}} - R_{2015}$$
-   Classified the resulting rate deltas into seven symmetrical bins spanning significant decreases ($<-10\%$) to severe increases ($>+10\%$)[cite: 3].
-4. **Spatial Conflation & Re-projection:** Harmonised country naming discrepancies across the tabular and spatial boundary datasets (e.g., matching "Cote d'Ivoire" to "Côte d'Ivoire" and "United States" to "United States of America")[cite: 3]. Merged the tabular indicators with the Natural Earth polygons in `geopandas` and reprojected the map coordinates from WGS84 (EPSG:4326) into the equal-area Equal Earth projection (`+proj=eqearth`) to eliminate polar landmass distortion[cite: 3].
-5. **Accessibility & Cartographic Refinement:** Applied the 7-class diverging ColorBrewer BrBG (Brown–Blue/Green) palette[cite: 3]. Used teal tones to signify positive poverty reduction and brown tones to highlight worsening rates[cite: 3]. Incorporated diagonal line hatching textures across missing survey regions to distinguish unobserved territory from near-zero poverty zones, ensuring full accessibility for color-vision-deficient readers and monochrome printing[cite: 3].
+   Classified the resulting rate deltas into seven symmetrical bins spanning significant decreases ($<-10\%$) to severe increases ($>+10\%$).
+4. **Spatial Conflation & Re-projection:** Harmonised country naming discrepancies across the tabular and spatial boundary datasets (e.g., matching "Cote d'Ivoire" to "Côte d'Ivoire" and "United States" to "United States of America"). Merged the tabular indicators with the Natural Earth polygons in `geopandas` and reprojected the map coordinates from WGS84 (EPSG:4326) into the equal-area Equal Earth projection (`+proj=eqearth`) to eliminate polar landmass distortion.
+5. **Accessibility & Cartographic Refinement:** Applied the 7-class diverging ColorBrewer BrBG (Brown–Blue/Green) palette. Used teal tones to signify positive poverty reduction and brown tones to highlight worsening rates. Incorporated diagonal line hatching textures across missing survey regions to distinguish unobserved territory from near-zero poverty zones, ensuring full accessibility for color-vision-deficient readers and monochrome printing.
 
 ---
 
@@ -411,11 +413,11 @@ The objective of this portfolio exercise is to develop a well-designed, publicat
 
 ![Original Dual-Panel Snapshot from Our World in Data](./owid_poverty_original_maps.png)  
 *Figure 1*  
-*Original dual-panel snapshot from Our World in Data (2026) displaying the share of population living below $3/day in 2015 versus 2025[cite: 3].*
+*Original dual-panel snapshot from Our World in Data (2026) displaying the share of population living below $3/day in 2015 versus 2025.*
 
 ![Re-created Spatial Visualization: Global Shift in Extreme Poverty Rates](./poverty_shift_spatial_map.png)  
 *Figure 2*  
-*Re-created spatial visualisation displaying the net percentage-point trajectory using the ColorBrewer BrBG diverging palette and Equal Earth projection[cite: 3].*
+*Re-created spatial visualisation displaying the net percentage-point trajectory using the ColorBrewer BrBG diverging palette and Equal Earth projection.*
 
 ---
 
@@ -423,19 +425,19 @@ The objective of this portfolio exercise is to develop a well-designed, publicat
 
 | Section | Details |
 | :--- | :--- |
-| **Title** | Global Shift in Extreme Poverty Rates (2015 vs. Latest Available)[cite: 3] |
-| **Summary** | A world choropleth map showing the net percentage-point change in extreme poverty rates (living below $3.00/day at 2017 PPP) between the 2015 baseline and recent post-2020 surveys[cite: 3]. Teal tones denote poverty reduction, off-white indicates stable rates ($\pm0.5\%$), brown tones highlight worsening poverty, and diagonal gray hatched textures denote countries lacking comparable multi-period survey data[cite: 3]. Inspired by the dual-panel poverty maps on Our World in Data (2026)[cite: 3]. |
-| **Data Sources** | * **Primary Host:** Our World in Data. (2026). *Poverty Data Explorer* [Data set]. Global Change Data Lab. https://ourworldindata.org/explorers/poverty-explorer[cite: 3]<br>* **Original Source:** World Bank. (2026). *Poverty and Inequality Platform (PIP)* (Version 20260324_2021 and 20260324_2017) [Data set]. World Bank Group. https://pip.worldbank.org/[cite: 3]<br>* **Spatial Boundary Geometry:** Natural Earth. (2026). *1:110m Cultural Vectors: Admin 0 – Countries* (Version 5.1.1) [Vector geospatial data]. https://www.naturalearthdata.com/downloads/110m-cultural-vectors/[cite: 3] |
-| **Mapping** | * **Fill Color (Choropleth Polygon Fill):** Symmetrical 7-class diverging ColorBrewer BrBG color scheme mapped to net rate deltas ($\Delta = R_{\text{recent}} - R_{2015}$)[cite: 3]:<br>&nbsp;&nbsp;&nbsp;&nbsp;• Significant Decrease ($<-10.0\%$): Dark Teal (`#01665e`)[cite: 3]<br>&nbsp;&nbsp;&nbsp;&nbsp;• Moderate Decrease ($-10.0\%$ to $-3.0\%$): Medium Teal (`#5ab4ac`)[cite: 3]<br>&nbsp;&nbsp;&nbsp;&nbsp;• Slight Decrease ($-3.0\%$ to $-0.5\%$): Light Teal (`#c7eae5`)[cite: 3]<br>&nbsp;&nbsp;&nbsp;&nbsp;• Stable / Minimal Shift ($\pm0.5\%$): Center Off-White (`#f5f5f5`)[cite: 3]<br>&nbsp;&nbsp;&nbsp;&nbsp;• Slight Increase ($+0.5\%$ to $+3.0\%$): Light Sand/Brown (`#f6e8c3`)[cite: 3]<br>&nbsp;&nbsp;&nbsp;&nbsp;• Moderate Increase ($+3.0\%$ to $+10.0\%$): Medium Brown (`#d8b365`)[cite: 3]<br>&nbsp;&nbsp;&nbsp;&nbsp;• Severe Increase ($>+10.0\%$): Dark Brown (`#8c510a`)[cite: 3]<br>* **Texture / Pattern Encoding:** Dual visual encoding using light gray (`#E8E8E8`) with diagonal line hatching (`///`) designates nations without comparable survey data[cite: 3].<br>* **Spatial Projection:** Projected in planar Equal Earth coordinates (`+proj=eqearth`), maintaining faithful relative continent sizes without polar distortion[cite: 3].<br>* **Metric Unit:** Percentage-point shift ($\%$) in the share of national population living below $3.00/day (2017 PPP)[cite: 3]. |
-| **Important Notes** | * **Preprocessing & Harmonization:** Removed regional summaries and urban/rural breakdowns to retain only sovereign countries[cite: 3]. Standardised country spelling variations to join tabular survey data cleanly with Natural Earth polygon geometries[cite: 3].<br>* **Missing Data Handling:** Nations lacking verified 2015 surveys (e.g., India) or missing post-2020 updates are given textured hatching to prevent misinterpreting missing data as zero poverty[cite: 3].<br>* **Analytical Limitations:** Household budget surveys are conducted in non-uniform 3-to-5-year cycles rather than annually[cite: 3]. High-income countries had already reached near-zero extreme poverty rates prior to 2015, resulting in negligible net change represented by the neutral category[cite: 3]. |
-| **Access** | Direct data download: [Our World in Data Poverty Explorer Download Portal](https://ourworldindata.org/explorers/poverty-explorer?time=2015..latest&overlay=download-data)[cite: 3] |
+| **Title** | Global Shift in Extreme Poverty Rates (2015 vs. Latest Available) |
+| **Summary** | A world choropleth map showing the net percentage-point change in extreme poverty rates (living below $3.00/day at 2017 PPP) between the 2015 baseline and recent post-2020 surveys. Teal tones denote poverty reduction, off-white indicates stable rates ($\pm0.5\%$), brown tones highlight worsening poverty, and diagonal gray hatched textures denote countries lacking comparable multi-period survey data. Inspired by the dual-panel poverty maps on Our World in Data (2026). |
+| **Data Sources** | * **Primary Host:** Our World in Data. (2026). *Poverty Data Explorer* [Data set]. Global Change Data Lab. https://ourworldindata.org/explorers/poverty-explorer<br>* **Original Source:** World Bank. (2026). *Poverty and Inequality Platform (PIP)* (Version 20260324_2021 and 20260324_2017) [Data set]. World Bank Group. https://pip.worldbank.org/<br>* **Spatial Boundary Geometry:** Natural Earth. (2026). *1:110m Cultural Vectors: Admin 0 – Countries* (Version 5.1.1) [Vector geospatial data]. https://www.naturalearthdata.com/downloads/110m-cultural-vectors/ |
+| **Mapping** | * **Fill Color (Choropleth Polygon Fill):** Symmetrical 7-class diverging ColorBrewer BrBG color scheme mapped to net rate deltas ($\Delta = R_{\text{recent}} - R_{2015}$):<br>&nbsp;&nbsp;&nbsp;&nbsp;• Significant Decrease ($<-10.0\%$): Dark Teal (`#01665e`)<br>&nbsp;&nbsp;&nbsp;&nbsp;• Moderate Decrease ($-10.0\%$ to $-3.0\%$): Medium Teal (`#5ab4ac`)<br>&nbsp;&nbsp;&nbsp;&nbsp;• Slight Decrease ($-3.0\%$ to $-0.5\%$): Light Teal (`#c7eae5`)<br>&nbsp;&nbsp;&nbsp;&nbsp;• Stable / Minimal Shift ($\pm0.5\%$): Center Off-White (`#f5f5f5`)<br>&nbsp;&nbsp;&nbsp;&nbsp;• Slight Increase ($+0.5\%$ to $+3.0\%$): Light Sand/Brown (`#f6e8c3`)<br>&nbsp;&nbsp;&nbsp;&nbsp;• Moderate Increase ($+3.0\%$ to $+10.0\%$): Medium Brown (`#d8b365`)<br>&nbsp;&nbsp;&nbsp;&nbsp;• Severe Increase ($>+10.0\%$): Dark Brown (`#8c510a`)<br>* **Texture / Pattern Encoding:** Dual visual encoding using light gray (`#E8E8E8`) with diagonal line hatching (`///`) designates nations without comparable survey data.<br>* **Spatial Projection:** Projected in planar Equal Earth coordinates (`+proj=eqearth`), maintaining faithful relative continent sizes without polar distortion.<br>* **Metric Unit:** Percentage-point shift ($\%$) in the share of national population living below $3.00/day (2017 PPP). |
+| **Important Notes** | * **Preprocessing & Harmonization:** Removed regional summaries and urban/rural breakdowns to retain only sovereign countries. Standardised country spelling variations to join tabular survey data cleanly with Natural Earth polygon geometries.<br>* **Missing Data Handling:** Nations lacking verified 2015 surveys (e.g., India) or missing post-2020 updates are given textured hatching to prevent misinterpreting missing data as zero poverty.<br>* **Analytical Limitations:** Household budget surveys are conducted in non-uniform 3-to-5-year cycles rather than annually. High-income countries had already reached near-zero extreme poverty rates prior to 2015, resulting in negligible net change represented by the neutral category. |
+| **Access** | Direct data download: [Our World in Data Poverty Explorer Download Portal](https://ourworldindata.org/explorers/poverty-explorer?time=2015..latest&overlay=download-data) |
 
 ---
 
 ### References
 
-Natural Earth. (2026). *1:110m Cultural Vectors: Admin 0 – Countries* (Version 5.1.1) [Vector geospatial data]. https://www.naturalearthdata.com/downloads/110m-cultural-vectors/[cite: 3]
+Natural Earth. (2026). *1:110m Cultural Vectors: Admin 0 – Countries* (Version 5.1.1) [Vector geospatial data]. https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
 
-Our World in Data. (2026). *Share of population living in extreme poverty* [Data set]. Global Change Data Lab. https://ourworldindata.org/explorers/poverty-explorer[cite: 3]
+Our World in Data. (2026). *Share of population living in extreme poverty* [Data set]. Global Change Data Lab. https://ourworldindata.org/explorers/poverty-explorer
 
-World Bank. (2026). *Poverty and Inequality Platform* (Version 20260324_2021 and 20260324_2017) [Data set]. World Bank Group. https://pip.worldbank.org/[cite: 3]
+World Bank. (2026). *Poverty and Inequality Platform* (Version 20260324_2021 and 20260324_2017) [Data set]. World Bank Group. https://pip.worldbank.org/
