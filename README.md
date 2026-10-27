@@ -12,6 +12,7 @@
 - [Bundle 2.2]
   * [Go to Part IX: Make it interactive! (Our World in Data) (27/10/26)](#part-ix-make-it-interactive-our-world-in-data-271026)
   * [Go to Part X: Multiplot it! (Our World in Data) (27/10/26)](#part-x-multiplot-it-our-world-in-data-271026)
+
 ---
 
 # Part 1
