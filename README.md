@@ -504,10 +504,19 @@ The objective of this portfolio exercise is to create an interactive data visual
 
 ---
 
+### Generative AI Acknowledgment
+
+I used Gemini, an AI tool created by Google (Google, 2026), to help me brainstorm non-junk interactivity features, write the Plotly Python code for the combined and faceted subplots, troubleshoot CSS and button clipping issues when resizing tabs, configure the dual-handle range slider, and implement the Okabe-Ito colorblind-safe palette.
+
+---
+
 ### References
+
 Ember. (2026). *Yearly electricity data* [Data set]. https://ember-climate.org/data/data-tools/data-explorer/
 
 Energy Institute. (2026). *Statistical review of world energy* [Data set]. https://www.energyinst.org/statistical-review
+
+Google. (2026). *Filtering OWID electricity data in pandas* [Generative AI chat]. Gemini. https://share.gemini.google/RQqR1b11EmbN
 
 Our World in Data. (2026). *Electricity production by source* [Data visualization and data set]. Global Change Data Lab. https://ourworldindata.org/grapher/electricity-production-by-source
 
@@ -524,7 +533,7 @@ The objective of this portfolio exercise is to combine at least two related data
 
 ### Master Data Visualization
 
-![Master Data Visualization: Electricity Production and Decarbonisation Transition](./Master_Module10.png)  
+![Master Data Visualization: Electricity Production and Decarbonisation Transition](./Master_Module9.png)  
 *Figure 1*  
 *Master Data Visualization: Electricity Production and Decarbonisation Transition. Sourced from Our World in Data (2026).*
 
@@ -555,7 +564,7 @@ The objective of this portfolio exercise is to combine at least two related data
    * Implemented a country selector dropdown that updates View A, View B, and the KPI cards simultaneously.
 5. **Accessibility & Usability Refinement:** Applied the Okabe-Ito palette across the stacked areas and used high-contrast green diamond markers and dark charcoal line styling on the macro lines. Re-anchored tooltips to individual points to prevent hover cards from blocking the neighboring subplot.
 6. **Hosting & Deployment:** Exported the dashboard to a standalone responsive HTML file, hosted it publicly on Posit Connect Cloud, and embedded the live interactive dashboard into the portfolio.
-7. 
+
 ---
 
 ### Data Card
@@ -571,10 +580,19 @@ The objective of this portfolio exercise is to combine at least two related data
 
 ---
 
+### Generative AI Acknowledgment
+
+I used Gemini, an AI tool created by Google (Google, 2026), to help me design the multiplot juxtaposition, write the Python Plotly subplots script, troubleshoot the disappearing legend bug when switching dropdown entities, fix overlapping hover tooltips, and configure dynamic KPI cards that update via JavaScript.
+
+---
+
 ### References
+
 Ember. (2026). *Yearly electricity data* [Data set]. https://ember-climate.org/data/data-tools/data-explorer/
 
 Energy Institute. (2026). *Statistical review of world energy* [Data set]. https://www.energyinst.org/statistical-review
+
+Google. (2026). *Filtering OWID electricity data in pandas* [Generative AI chat]. Gemini. https://share.gemini.google/RQqR1b11EmbN
 
 Our World in Data. (2026). *Electricity production by source* [Data visualization and data set]. Global Change Data Lab. https://ourworldindata.org/grapher/electricity-production-by-source
 
