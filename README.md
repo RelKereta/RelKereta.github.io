@@ -1,14 +1,17 @@
 ### Table of Contents
-* [Bundle 1.1]
+- [Bundle 1.1]
   * [Go to Part I: Steps vs. Average Air Temperature](#part-i-steps-vs-average-air-temperature)
   * [Go to Part II: Web Data Visualisation Analysis (PT Bank Central Asia Tbk)](#part-ii-web-data-visualisation-analysis-pt-bank-central-asia-tbk)
-* [Bundle 1.2]
+- [Bundle 1.2]
   * [Go to Part III: Data Verification Audit (HowMuch.net)](#part-iii-data-verification-audit-howmuchnet-280826)
   * [Go to Part IV: Tools of the Trade (Technical Skills & Certification)](#part-iv-tools-of-the-trade-technical-skills--certification)
-* [Bundle 2.1]
+- [Bundle 2.1]
   * [Go to Part VI: Checked and accessible! (Our World in Data) (08/09/26)](#part-vi-checked-and-accessible-our-world-in-data-080926)
   * [Go to Part VII: Make it multivariate! (Australian Bureau of Statistics) (02/10/26)](#part-vii-make-it-multivariate-australian-bureau-of-statistics-021026)
   * [Go to Part VIII: Map it! (Our World in Data & World Bank) (02/10/26)](#part-viii-map-it-our-world-in-data--world-bank-021026)
+- [Bundle 2.2]
+  * [Go to Part IX: Make it interactive! (Our World in Data) (27/10/26)](#part-ix-make-it-interactive-our-world-in-data-271026)
+  * [Go to Part X: Multiplot it! (Our World in Data) (27/10/26)](#part-x-multiplot-it-our-world-in-data-271026)
 ---
 
 # Part 1
@@ -101,18 +104,18 @@ The objective of this exercise is to take a look at a published data visualizati
 ### Data Analysis and Verification
 
 #### 1. Types of Variables and Levels of Measurement
-* **Geographic entity (U.S. States):** It is represented using hexagons that are laid out in a rough shape of the U.S. where each hexagon border represents geographical boundary. The unit is the state name, and the level of measurement is Nominal.
-* **Uninsured Rate (Percentage):** It is represented by numerical labels. The unit is the percentage of uninsured population (%), and level of measurement is Ratio (continuous numeric scale with a true zero).
-* **Color Hue & Shading (Choropleth Scale):**  Represented by the fill color of the hexagons. The unit is the visual gradient intensity and the level of measurement is Ordinal.
+- **Geographic entity (U.S. States):** It is represented using hexagons that are laid out in a rough shape of the U.S. where each hexagon border represents geographical boundary. The unit is the state name, and the level of measurement is Nominal.
+- **Uninsured Rate (Percentage):** It is represented by numerical labels. The unit is the percentage of uninsured population (%), and level of measurement is Ratio (continuous numeric scale with a true zero).
+- **Color Hue & Shading (Choropleth Scale):**  Represented by the fill color of the hexagons. The unit is the visual gradient intensity and the level of measurement is Ordinal.
 
 #### 2. Alignment of Data and Question
-* **Data (D):** State level percentages of civilian non-institutionalized residents without insurance from the ACS 1-Year Estimates (U.S. Census Bureau, 2020).
-* **Core Question (Q):** How does health insurance coverage vary geographically across the United States, and which states exhibit the highest/lowest rates of uninsured residents?
-* **Alignment:** Using the Junk Charts Trifecta Checkup framework (Fung, 2014), there is strong alignment between the core question and the data provided (HowMuch.net, 2021).  Measuring the uninsured percentage by state answers the question of the differences between states.
+- **Data (D):** State level percentages of civilian non-institutionalized residents without insurance from the ACS 1-Year Estimates (U.S. Census Bureau, 2020).
+- **Core Question (Q):** How does health insurance coverage vary geographically across the United States, and which states exhibit the highest/lowest rates of uninsured residents?
+- **Alignment:** Using the Junk Charts Trifecta Checkup framework (Fung, 2014), there is strong alignment between the core question and the data provided (HowMuch.net, 2021).  Measuring the uninsured percentage by state answers the question of the differences between states.
 
 #### 3. Data Verification
-* **Verification Findings:** I placed my data verification results in Comparison.xlsx, and from what I see, all the data visualized from HowMuch.net matches exactly with the data from the official U.S. Census Bureau (2020) ACS Table S2701 dataset exactly. There were no errors found.
-* **Confidence:** I am very confident with the data that HowMuch.net (2021) used is accurate, but there is one tiny thing that might mislead the readers. The article and visualization was published in 2021, but the data that HowMuch.net uses is from 2019, so some readers might be mislead and think that they used 2021 data if read carelessly as the article title didn’t say anything about the year.
+- **Verification Findings:** I placed my data verification results in Comparison.xlsx, and from what I see, all the data visualized from HowMuch.net matches exactly with the data from the official U.S. Census Bureau (2020) ACS Table S2701 dataset exactly. There were no errors found.
+- **Confidence:** I am very confident with the data that HowMuch.net (2021) used is accurate, but there is one tiny thing that might mislead the readers. The article and visualization was published in 2021, but the data that HowMuch.net uses is from 2019, so some readers might be mislead and think that they used 2021 data if read carelessly as the article title didn’t say anything about the year.
 
 #### 4. Data Source Examination
 -	The primary data source used by HowMuch.net (2021) is highly reputable, as it is published by the U.S. Census Bureau (2020).Even if the data source is reputable, there are also limitations to the data provided. Since the American Community Survey is done using a sample instead of census, each percentage has a margin of error. 
@@ -156,18 +159,18 @@ The objective of this section is to show my technical skill set and how proficie
 ### Certifications & Accreditations
 
 #### 1. Introduction to Python (DataCamp)
-* **Issuing Organization:** DataCamp
-* **Topics Covered:** Python data structures (lists, dictionaries), functions, package management, and numerical computing with NumPy.
-* **Certificate:**
+- **Issuing Organization:** DataCamp
+- **Topics Covered:** Python data structures (lists, dictionaries), functions, package management, and numerical computing with NumPy.
+- **Certificate:**
 
 ![DataCamp Certificate - Introduction to Python](./datacamp_intro_to_python_certificate.png)
 *Figure 1*  
 *Certificate of Completion: Introduction to Python (DataCamp)*
 
 #### 2. Introduction to Data Visualization with Matplotlib (DataCamp)
-* **Issuing Organization:** DataCamp
-* **Topics Covered:** Quantitative data plotting, time-series visual styling, comparative categorical plots, statistical annotations, and automated figure export.
-* **Certificate:**
+- **Issuing Organization:** DataCamp
+- **Topics Covered:** Quantitative data plotting, time-series visual styling, comparative categorical plots, statistical annotations, and automated figure export.
+- **Certificate:**
 
 ![DataCamp Certificate - Introduction to Data Visualization with Matplotlib](./datacamp_matplotlib_certificate.png)
 *Figure 2*  
@@ -287,9 +290,9 @@ The objective of this exercise is to learn about accessibility in data visualiza
 
 I put my previous recreation with accessible colors in the checklist and found two areas where I can improve the visualization:
 
-* **Accessibility Improvement (Contrast and Dual Encoding):** For the original accessible recreation, I used the Okabe-Ito palette. While it is a colorblind safe palette, the yellow in the palette used for Nigeria does not really contrast well with the white background, so I changed it and darkened it to a high contrast gold color. Additionally, I found that the visualization would not be that accessible if it were to be printed in black and white as it would be hard to tell the lines at the bottom apart as they overlap with each other. So, I tried doing something like texturing by making some lines dashed and dotted, but according to me, when it is colored, it causes a bit more visual clutter, so I opted to make two versions.
-* **Faceting:** After some feedback on the accessibility issue of the overlapping section of the visualization, I was given the suggestion to make it so that the visualization be faceted so it is easier to read and understand the visualization. Having the visualization be faceted also helps with making it so that it can be printed in black and white
-* **Text Hierarchy & Titling:** The checklist says that a visualization must have a descriptive, full sentence title positioned in the upper left with a supporting subtitle beneath it (Evergreen, n.d.). The original data visualization only featured a generic title saying “Population”, which does not comply with the checklist, so I replaced it with the main story of the visualization and with a subtitle explaining the x and y axis and timeframe of the data visualization.
+- **Accessibility Improvement (Contrast and Dual Encoding):** For the original accessible recreation, I used the Okabe-Ito palette. While it is a colorblind safe palette, the yellow in the palette used for Nigeria does not really contrast well with the white background, so I changed it and darkened it to a high contrast gold color. Additionally, I found that the visualization would not be that accessible if it were to be printed in black and white as it would be hard to tell the lines at the bottom apart as they overlap with each other. So, I tried doing something like texturing by making some lines dashed and dotted, but according to me, when it is colored, it causes a bit more visual clutter, so I opted to make two versions.
+- **Faceting:** After some feedback on the accessibility issue of the overlapping section of the visualization, I was given the suggestion to make it so that the visualization be faceted so it is easier to read and understand the visualization. Having the visualization be faceted also helps with making it so that it can be printed in black and white
+- **Text Hierarchy & Titling:** The checklist says that a visualization must have a descriptive, full sentence title positioned in the upper left with a supporting subtitle beneath it (Evergreen, n.d.). The original data visualization only featured a generic title saying “Population”, which does not comply with the checklist, so I replaced it with the main story of the visualization and with a subtitle explaining the x and y axis and timeframe of the data visualization.
 
 ---
 
@@ -384,9 +387,6 @@ Australian Bureau of Statistics. (2026). *Causes of death, Australia, 2024* [Dat
 
 Australian Bureau of Statistics. (2026). *Deaths from external causes, Australia, 2024*. Commonwealth of Australia. https://www.abs.gov.au/statistics/health/causes-death/deaths-external-causes/2024
 
-
----
-
 ---
 
 ## Part VIII: Map it! (Our World in Data & World Bank) (02/10/26)
@@ -441,3 +441,141 @@ Natural Earth. (2026). *1:110m Cultural Vectors: Admin 0 – Countries* (Version
 Our World in Data. (2026). *Share of population living in extreme poverty* [Data set]. Global Change Data Lab. https://ourworldindata.org/explorers/poverty-explorer
 
 World Bank. (2026). *Poverty and Inequality Platform* (Version 20260324_2021 and 20260324_2017) [Data set]. World Bank Group. https://pip.worldbank.org/
+
+---
+
+# Bundle 2
+
+---
+
+## Part IX: Make it interactive! (Our World in Data) (27/10/26)
+
+### Exercise Objective
+The objective of this portfolio exercise is to create an interactive data visualisation that demonstrates intentional interactive design using data sourced from the web or from a previous exercise. Using Our World in Data's global electricity generation dataset, I developed an interactive dashboard that eliminates visual clutter and scale compression when comparing multiple energy fuel sources across different economies over time.
+
+---
+
+### Master Data Visualization
+
+![Master Data Visualization: Electricity production by source](./Master_Module9.png)  
+*Figure 1*  
+*Master Data Visualization: Electricity production by source. Sourced from Our World in Data (2026).*
+
+---
+
+### Interactive Visualisation Embed
+
+> 🔗 **Live Hosted Dashboard:** [Click here to open the full-screen interactive dashboard on Posit Connect Cloud](https://01a17d18-9e83-e206-5a7b-77ac16459ac4.share.connect.posit.cloud/)
+
+<iframe src="https://01a17d18-9e83-e206-5a7b-77ac16459ac4.share.connect.posit.cloud/" width="100%" height="750" style="border: 1px solid #d0d7de; border-radius: 8px;" allowfullscreen></iframe>
+
+![Interactive Recreation Screenshot Combined](./Interactive_Recreation_Combined.png)  
+![Interactive Recreation Screenshot Faceted](./Interactive_Recreation_Faceted.png)  
+*Figure 2*  
+*Replicated and enhanced interactive visualization featuring a Combined Overview and Faceted Small Multiples with dynamic metric toggling, timeline filtering, and country selection using data from Our World in Data (2026).*
+
+---
+
+### Step-by-Step Exercise Summary
+
+1. **Workspace Architecture & Environment Setup:** Created the project directory within my workspace to manage the Our World in Data energy dataset, Plotly Python scripts (`Interactive.py`), exported standalone HTML files, and documentation.
+2. **Data Sourcing & Reference:** Sourced global electricity generation data from Our World in Data (derived from Ember and the Energy Institute) tracking nine fuel technologies (Coal, Gas, Oil, Nuclear, Hydropower, Wind, Solar, Bioenergy, and Other renewables).
+3. **Data Wrangling & Scope Filtering:** Using Python (`pandas`), filtered the timeline to 1985–2023. This removed decades of unrecorded historical baselines for modern renewables and avoided data drop-offs in recent incomplete years. Filtered the dataset to six key comparative economies (Australia, Germany, Indonesia, US, China, and World), computed row-wise `Total_TWh`, and derived relative grid shares (`%`) for each fuel.
+4. **Interactive Dashboard Development:** Built an interactive web dashboard in Plotly featuring:
+   * **Dual-Perspective View Mode:** Created a toggle between a *Combined Overview* (macro fuel mix) and a *Faceted Breakdown* (3×3 small-multiples grid) so smaller sources like solar and wind are not visually flattened by large coal baselines.
+   * **Metric Switching:** Added buttons to switch the Y-axis between physical generation (TWh) and relative grid share (%).
+   * **Dynamic Country Filtering:** Implemented a dropdown to seamlessly swap national profiles.
+   * **Synchronized Timeline Slider:** Added a dual-handle range slider with era presets (Post-Paris 2015–2023, 2000–2023, Full History) and locked canvas dragging (`dragmode=False`) to prevent coordinate displacement.
+5. **Accessibility & Colorblind-Safe Design:** Encoded all nine fuel sources using the Okabe-Ito colorblind-safe palette, added discrete point markers on each year, unified tooltips for quick value inspection, and wrapped the output in semantic HTML with alt-text.
+6. **Hosting & Deployment:** Exported the visualization to a self-contained HTML file and deployed it to Posit Connect Cloud with public permissions, embedding the live link and iframe into my portfolio.
+
+---
+
+### Data Card
+
+| Parameter | Attribute Details |
+| :--- | :--- |
+| **Title** | Electricity Production by Source (1985–2023) |
+| **Summary** | An interactive time-series visualization tracking electricity generation profiles and grid decarbonisation from 1985 to 2023 across six economies: Australia, Germany, Indonesia, United States, China, and the World across nine fuel sources (Coal, Gas, Oil, Nuclear, Hydropower, Wind, Solar, Bioenergy, and Other renewables). |
+| **Data Sources** | Primary Source / Host: Our World in Data. (2026). *Electricity Production by Source* [Data set]. https://ourworldindata.org/grapher/electricity-production-by-source<br><br>Original Source 1: Ember. (2026). *Yearly Electricity Data* [Data set]. https://ember-climate.org/data/data-tools/data-explorer/<br><br>Original Source 2: Energy Institute. (2026). *Statistical Review of World Energy* [Data set]. https://www.energyinst.org/statistical-review |
+| **Mapping** | **X axis:** Year, continuous annual time steps from 1985 to 2023 (OWID / Ember / Energy Institute, 2024).<br><br>**Y axis:** Electricity Output / Share — measured in Terawatt-hours (TWh) for absolute output, or percentage of total gross generation (0% to 100%) for grid share mode (OWID / Ember / Energy Institute, 2026). |
+| **Important Notes** | **Preprocessing and Filtering:** The raw dataset contains global historical electricity figures across hundreds of countries dating back to 1900. The data was filtered to the 1985–2023 period to ensure complete, disaggregated reporting for modern renewables and eliminate unrecorded historical baselines. Data was filtered to six key representative entities. Total TWh and percentage grid shares were calculated for each source per year.<br><br>**Missing Data:** Null values were filled with 0. Preliminary data for 2024–2025 was excluded due to reporting lag in developing economies like Indonesia. |
+| **Access** | Direct page access to download data: [Our World in Data Electricity Production by Source](https://ourworldindata.org/grapher/electricity-production-by-source?overlay=download-data) |
+
+---
+
+### References
+Ember. (2026). *Yearly electricity data* [Data set]. https://ember-climate.org/data/data-tools/data-explorer/
+
+Energy Institute. (2026). *Statistical review of world energy* [Data set]. https://www.energyinst.org/statistical-review
+
+Our World in Data. (2026). *Electricity production by source* [Data visualization and data set]. Global Change Data Lab. https://ourworldindata.org/grapher/electricity-production-by-source
+
+Siegal Lab. (n.d.). *Color palette*. Department of Biology and Center for Genomics & Systems Biology, New York University. https://siegal.bio.nyu.edu/color-palette/
+
+---
+
+## Part X: Multiplot it! (Our World in Data) (27/10/26)
+
+### Exercise Objective
+The objective of this portfolio exercise is to combine at least two related data visualisations into a multiplot display. The multiplot must incorporate complementary views of the data using juxtaposition and visual emphasis effectively to convey insights that a single plot cannot reveal alone, while incorporating meaningful interactivity and accessibility.
+
+---
+
+### Master Data Visualization
+
+![Master Data Visualization: Electricity Production and Decarbonisation Transition](./Master_Module10.png)  
+*Figure 1*  
+*Master Data Visualization: Electricity Production and Decarbonisation Transition. Sourced from Our World in Data (2026).*
+
+---
+
+### Multiplot Visualisation Embed
+
+> 🔗 **Live Hosted Dashboard:** [Click here to open the full-screen multiplot dashboard on Posit Connect Cloud](https://01a17d1a-7937-7ee1-b082-7600a5618d58.share.connect.posit.cloud/)
+
+<iframe src="https://01a17d1a-7937-7ee1-b082-7600a5618d58.share.connect.posit.cloud/" width="100%" height="820" style="border: 1px solid #d0d7de; border-radius: 8px;" allowfullscreen></iframe>
+
+![Multiplot Recreation Screenshot](./Multiplot_Recreation_Dashboard.png)  
+*Figure 2*  
+*Multiplot dashboard combining a 100% normalized stacked area chart of proportional fuel shares with an aggregate macro volume race (Fossil vs. Clean in TWh), featuring synchronized timeline controls and dynamic country switching using data from Our World in Data (2026).*
+
+---
+
+### Step-by-Step Exercise Summary
+
+1. **Workspace Architecture & Data Reuse:** Reused the cleaned 1985–2023 Our World in Data electricity dataset in `dashboard.py` to maintain analytical continuity with Module 9.
+2. **Dimension Grouping & Metric Aggregation:** In Python (`pandas`), grouped the nine fuel sources into two macro categories: Total Fossil Fuels (Coal + Gas + Oil) and Total Clean Energy (Solar + Wind + Hydro + Nuclear + Bioenergy). Calculated annual macro totals and clean percentage shares.
+3. **Multiplot Layout & Juxtaposition Design:** Designed a side-by-side 1×2 juxtaposed display (`make_subplots`) to contrast two complementary views:
+   * **View A (Left Panel - Proportional Grid Mix):** A 100% normalized stacked area chart showing the proportional evolution of all nine fuel technologies with white dividing contour strokes.
+   * **View B (Right Panel - Macro Transition Race):** A dual-line trajectory comparing aggregate Fossil Fuels directly against Clean Power in physical Terawatt-hours (TWh).
+4. **Cross-View Interactivity & Live KPIs:**
+   * Built top-level executive KPI cards that dynamically calculate and display each country's latest Clean Power Share (%), Clean Output (TWh), and Total Grid Generation (TWh).
+   * Added a synchronized timeline slider and quick-era buttons that filter the X-axis for both subplots simultaneously.
+   * Implemented a country selector dropdown that updates View A, View B, and the KPI cards simultaneously.
+5. **Accessibility & Usability Refinement:** Applied the Okabe-Ito palette across the stacked areas and used high-contrast green diamond markers and dark charcoal line styling on the macro lines. Re-anchored tooltips to individual points to prevent hover cards from blocking the neighboring subplot.
+6. **Hosting & Deployment:** Exported the dashboard to a standalone responsive HTML file, hosted it publicly on Posit Connect Cloud, and embedded the live interactive dashboard into the portfolio.
+7. 
+---
+
+### Data Card
+
+| Parameter | Attribute Details |
+| :--- | :--- |
+| **Title** | National Energy Transition Multiplot Dashboard (1985–2023) |
+| **Summary** | A two-panel juxtaposed multiplot visualization comparing proportional grid composition (100% normalized stacked area) against aggregate physical generation trajectories (fossil vs. clean in TWh) from 1985 to 2023 across six economies: Australia, Germany, Indonesia, United States, China, and the World. |
+| **Data Sources** | Primary Source / Host: Our World in Data. (2026). *Electricity Production by Source* [Data set]. [Our World in Data](https://ourworldindata.org/grapher/electricity-production-by-source)<br><br>Original Source 1: Ember. (2026). *Yearly Electricity Data* [Data set]. [Ember Climate](https://ember-climate.org/data/data-tools/data-explorer/)<br><br>Original Source 2: Energy Institute. (2026). *Statistical Review of World Energy* [Data set]. [Energy Institute](https://www.energyinst.org/statistical-review) |
+| **Mapping** | **X axis:** Year, continuous annual time steps from 1985 to 2023 synchronized across both subplots (OWID / Ember / Energy Institute, 2026).<br><br>**Y axis (View A):** Grid Share (%) — normalized proportion of each fuel source relative to gross annual electricity generation, ranging from 0% to 100% (OWID / Ember / Energy Institute, 2026).<br><br>**Y axis (View B):** Generation Volume (TWh) — aggregate physical electricity production comparing Total Fossil Fuels (Coal, Gas, Oil) against Total Clean Energy (Solar, Wind, Hydro, Nuclear, Bioenergy) (OWID / Ember / Energy Institute, 2026). |
+| **Important Notes** | **Preprocessing and Filtering:** Sourced from Our World in Data global records. Filtered to 1985–2023 to maintain consistent technology reporting. Nine fuel sources were aggregated into two macro sums (Total Fossil and Total Clean Power). Percentages were calculated for each fuel to generate 100% stacked areas. Six key representative entities were selected.<br><br>**Missing Data:** Null values were filled with 0. Preliminary records for 2024–2025 were excluded due to reporting lag in developing nations. |
+| **Access** | Direct page access to download data: [Our World in Data Electricity Production by Source](https://ourworldindata.org/grapher/electricity-production-by-source?overlay=download-data) |
+
+---
+
+### References
+Ember. (2026). *Yearly electricity data* [Data set]. https://ember-climate.org/data/data-tools/data-explorer/
+
+Energy Institute. (2026). *Statistical review of world energy* [Data set]. https://www.energyinst.org/statistical-review
+
+Our World in Data. (2026). *Electricity production by source* [Data visualization and data set]. Global Change Data Lab. https://ourworldindata.org/grapher/electricity-production-by-source
+
+Siegal Lab. (n.d.). *Color palette*. Department of Biology and Center for Genomics & Systems Biology, New York University. https://siegal.bio.nyu.edu/color-palette/
